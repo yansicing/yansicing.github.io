@@ -1,2 +1,2 @@
 # yansicing.github.io
-Course experiment~
+awesome resources~
