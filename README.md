@@ -15,8 +15,9 @@
 * data-science-ipython-notebooks：https://github.com/donnemartin/data-science-ipython-notebooks  
 * Machine-Learning-Projects：https://github.com/Scott-Taylor38/Machine-Learning-Projects  
 * CapsNet：https://github.com/leeyh4it/CapsNet  
-
-
+* Blog：https://woaielf.github.io/category/
+* Machine learning data summary（Nights）：http://www.nights666.cn:8066/nights/detail?blogId=26
+* TensorFlow and deep learning without a PhD：https://zhuanlan.zhihu.com/p/25010476
 
 
 
