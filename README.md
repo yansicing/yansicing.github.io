@@ -1,5 +1,6 @@
-* trending：https://github.com/trending
+* Trending：https://github.com/trending
 * MAIN：https://www.mlhub123.com/  
+* Websites-and-tools：https://github.com/strivebo/websites-and-tools
 * Machine Learning & Deep Learning Website Resources Summary：https://github.com/howie6879/mlhub123  
 * linux-command：https://github.com/zhongrongzhao/linux-command  
 * deeplearning-mindmap：https://github.com/dformoso/deeplearning-mindmap  
