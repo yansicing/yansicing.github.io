@@ -1,6 +1,11 @@
 * MAIN：https://www.mlhub123.com/ 
 * trending：https://github.com/trending
 * websites-and-tools：https://github.com/strivebo/websites-and-tools
+### gaussian-processes
+* Good-Papers：https://github.com/hoangcuong2011/Good-Papers
+* gaussian-processes topic：https://github.com/topics/gaussian-processes
+* bayesian -machine-learning：https://github.com/krasserm/bayesian-machine-learning
+
 ### Machine learning
 * Machine learning topic：https://github.com/topics/machine-learning
 * Deep learning topic：https://github.com/topics/deep-learning
