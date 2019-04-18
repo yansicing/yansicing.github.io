@@ -6,7 +6,17 @@
 * gaussian-processes topic：https://github.com/topics/gaussian-processes
 * bayesian -machine-learning：https://github.com/krasserm/bayesian-machine-learning
 
-### Machine learning
+### GCN
+* gcn：https://github.com/tkipf/gcn
+
+
+### Traffic Forecasting
+* Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting： https://davidham3.github.io/blog/2018/07/31/diffusion-convolutional-recurrent-neural-network-data-driven-traffic-forecasting/
+* spatio-temporal-paper-list：https://github.com/Davidham3/spatio-temporal-paper-list
+* TrafficFlowPrediction：https://github.com/xiaochus/TrafficFlowPrediction
+* traffic-prediction：https://github.com/Damon1226/traffic-prediction
+* BaiduTraffic：https://github.com/JingqingZ/BaiduTraffic
+### Machine Learning
 * Machine learning topic：https://github.com/topics/machine-learning
 * Deep learning topic：https://github.com/topics/deep-learning
 * Machine Learning & Deep Learning Website Resources Summary：https://github.com/howie6879/mlhub123  
