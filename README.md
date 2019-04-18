@@ -11,6 +11,8 @@
 
 
 ### Traffic Forecasting
+* Yaguang Li：http://www-scf.usc.edu/~yaguang/
+* gitmemory：https://www.gitmemory.com/liyaguang
 * Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting： https://davidham3.github.io/blog/2018/07/31/diffusion-convolutional-recurrent-neural-network-data-driven-traffic-forecasting/
 * spatio-temporal-paper-list：https://github.com/Davidham3/spatio-temporal-paper-list
 * TrafficFlowPrediction：https://github.com/xiaochus/TrafficFlowPrediction
