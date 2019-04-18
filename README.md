@@ -1,7 +1,7 @@
 * MAIN：https://www.mlhub123.com/ 
 * trending：https://github.com/trending
 * websites-and-tools：https://github.com/strivebo/websites-and-tools
-### gaussian-processes
+### Gaussian Processes
 * Good-Papers：https://github.com/hoangcuong2011/Good-Papers
 * gaussian-processes topic：https://github.com/topics/gaussian-processes
 * bayesian -machine-learning：https://github.com/krasserm/bayesian-machine-learning
@@ -45,6 +45,6 @@
 * linux-command：https://github.com/zhongrongzhao/linux-command  
 * deeplearning-mindmap：https://github.com/dformoso/deeplearning-mindmap  
 * cheatsheets-ai：https://github.com/kailashahirwar/cheatsheets-ai 
-
-
-
+### Tools
+* incubator-echarts：https://github.com/apache/incubator-echarts/tree/master/extension/bmap
+* 3d-visualization：https://oculus-3d-visualization-c5687.firebaseapp.com/dashboard#myModal
