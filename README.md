@@ -27,7 +27,8 @@
 * Machine learning topic：https://github.com/topics/machine-learning
 * Deep learning topic：https://github.com/topics/deep-learning
 * Machine Learning & Deep Learning Website Resources Summary：https://github.com/howie6879/mlhub123  
-* 100-Days-Of-ML-Code：https://github.com/Avik-Jain/100-Days-Of-ML-Code
+* 100-Days-Of-ML-Code(Chinese)：https://github.com/MLEveryday/100-Days-Of-ML-Code
+* 100-Days-Of-ML-Code(English)：https://github.com/Avik-Jain/100-Days-Of-ML-Code
 * DeepLearning-500-questions：https://github.com/scutan90/DeepLearning-500-questions  
 * https-github.com-exacity-deeplearningbook-chinese：https://github.com/amongstar/https-github.com-exacity-deeplearningbook-chinese  
 * tensorflow-without-a-phd：https://github.com/GoogleCloudPlatform/tensorflow-without-a-phd  
