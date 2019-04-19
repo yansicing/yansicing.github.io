@@ -5,6 +5,10 @@
 * Good-Papers：https://github.com/hoangcuong2011/Good-Papers
 * gaussian-processes topic：https://github.com/topics/gaussian-processes
 * bayesian -machine-learning：https://github.com/krasserm/bayesian-machine-learning
+* gpr：https://github.com/mmottl/gpr
+* Basic-Gaussian-Process-on-Tensorflow：https://github.com/shuuki4/Basic-Gaussian-Process-on-Tensorflow
+* A gentle introduction to Gaussian Process Regression：https://george.readthedocs.io/en/latest/tutorials/first/
+* Gaussian Processes regression: basic introductory example：https://scikit-learn.org/stable/auto_examples/gaussian_process/plot_gpr_noisy_targets.html
 
 ### GCN
 * gcn：https://github.com/tkipf/gcn
