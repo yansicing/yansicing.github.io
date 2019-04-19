@@ -1,6 +1,7 @@
-* MAIN：https://www.mlhub123.com/ 
+* Main：https://www.mlhub123.com/ 
 * trending：https://github.com/trending
 * websites-and-tools：https://github.com/strivebo/websites-and-tools
+* Machine Learning Cheatsheet：https://ml-cheatsheet.readthedocs.io/en/latest/index.html
 ### Gaussian Processes
 * GGP：https://github.com/yincheng/GGP （Bayesian Semi-supervised Learning with Graph Gaussian Processes）
 * Good-Papers：https://github.com/hoangcuong2011/Good-Papers
@@ -47,10 +48,18 @@
 ### Resources
 * cheatsheets topic：https://github.com/topics/cheatsheets
 * Cheatsheets：https://github.com/lemoz/Cheatsheets
+* Awesome-DataScience-Cheatsheets：https://github.com/prashanthbasani/Awesome-DataScience-Cheatsheets
+* ml-cheatsheet：https://github.com/ShuaiW/ml-cheatsheet
+* ml_cheatsheet(5-pages)：https://github.com/remicnrd/ml_cheatsheet
 * machine-learning-cheat-sheet：https://github.com/soulmachine/machine-learning-cheat-sheet
 * linux-command：https://github.com/zhongrongzhao/linux-command  
 * deeplearning-mindmap：https://github.com/dformoso/deeplearning-mindmap  
 * cheatsheets-ai：https://github.com/kailashahirwar/cheatsheets-ai 
+* Machine-Learning-CheatSheets：https://github.com/DipakMajhi/Machine-Learning-CheatSheets
+* Python-introduction：https://github.com/stdntlfe/Python-introduction
+* 
 ### Tools
 * incubator-echarts：https://github.com/apache/incubator-echarts/tree/master/extension/bmap
 * 3d-visualization：https://oculus-3d-visualization-c5687.firebaseapp.com/dashboard#myModal
+* 3D Graphing Tool：https://www.geogebra.org/3d
+* [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
