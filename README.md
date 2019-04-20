@@ -14,7 +14,7 @@
 
 ### GCN
 * gcn：https://github.com/tkipf/gcn
-
+* Graph-Neural-Network-Review：https://github.com/talorwu/Graph-Neural-Network-Review
 
 ### Traffic Forecasting
 * Yaguang Li：http://www-scf.usc.edu/~yaguang/
