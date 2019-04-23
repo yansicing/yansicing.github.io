@@ -12,6 +12,14 @@
 * Basic-Gaussian-Process-on-Tensorflow：https://github.com/shuuki4/Basic-Gaussian-Process-on-Tensorflow
 * A gentle introduction to Gaussian Process Regression：https://george.readthedocs.io/en/latest/tutorials/first/
 * Gaussian Processes regression: basic introductory example：https://scikit-learn.org/stable/auto_examples/gaussian_process/plot_gpr_noisy_targets.html
+### Uncertainty
+* Uncertainty_Course：https://github.com/mbolic2/Uncertainty_Course
+* uncertainty：https://github.com/erikbern/uncertainty/blob/master/notebook.ipynb
+* ml-prediction-uncertainty：https://github.com/madsenmj/ml-prediction-uncertainty
+* Predicting-weather-forecast-uncertainty-with-machine-learning：https://github.com/seb1000/Predicting-weather-forecast-uncertainty-with-machine-learning
+* ml_uncertainty_py：https://github.com/usnistgov/ml_uncertainty_py
+* [Robust-optimization-using-Machine-learning-for-building-Uncertainty-Sets](https://github.com/priyanka-sharma29/Robust-Optimization-using-Machine-Learning-for-building-Uncertainty-Sets)
+* 
 
 ### GCN
 * gcn：https://github.com/tkipf/gcn
@@ -66,3 +74,4 @@
 * 3d-visualization：https://oculus-3d-visualization-c5687.firebaseapp.com/dashboard#myModal
 * 3D Graphing Tool：https://www.geogebra.org/3d
 * [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
