@@ -85,8 +85,7 @@
 * Point：> * 
 * equation：$$ f(x) $$
 * code： ''' yang '''
-* table：| 1 | 2 | 3 |
-* table：|:-:|:-:|:-:|
+* table：| 1 | 2 | 3 |  |:-:|:-:|:-:|
 * cite：[ ]( )
 * bold：### 
 * inline code block：` `
