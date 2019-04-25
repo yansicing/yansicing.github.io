@@ -86,6 +86,7 @@
 * equation：$$ f(x) $$
 * code： ''' yang '''
 * table：| 1 | 2 | 3 |
+* table：|:-:|:-:|:-:|
 * cite：[ ]( )
 * bold：### 
 * inline code block：` `
