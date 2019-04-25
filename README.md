@@ -26,7 +26,7 @@
 * Graph-Neural-Network-Review：https://github.com/talorwu/Graph-Neural-Network-Review
 
 ### Traffic Forecasting
-* 
+* [Traffic field_AAAI-2019](https://blog.csdn.net/TiffanyRabbit/article/details/88424126)
 * [spatio-temporal-paper-list](https://github.com/Eilene/spatio-temporal-paper-list)
 * Yaguang Li：http://www-scf.usc.edu/~yaguang/
 * gitmemory：https://www.gitmemory.com/liyaguang
