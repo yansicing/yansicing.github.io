@@ -1,9 +1,9 @@
 []()
-* [mlhub123](https://www.mlhub123.com/ )
-* trending：https://github.com/trending
-* paperswithcode：https://paperswithcode.com/sota
-* websites-and-tools：https://github.com/strivebo/websites-and-tools
-* Machine Learning Cheatsheet：https://ml-cheatsheet.readthedocs.io/en/latest/index.html
+* [mlhub123-Machine learning navigation station](https://www.mlhub123.com/ )
+* [github trending](https://github.com/trending)
+* [paperswithcode](https://paperswithcode.com/sota)
+* [websites-and-tools](https://github.com/strivebo/websites-and-tools)
+* [Machine Learning Cheatsheet](https://ml-cheatsheet.readthedocs.io/en/latest/index.html)
 ### Gaussian Processes
 * GGP：https://github.com/yincheng/GGP （Bayesian Semi-supervised Learning with Graph Gaussian Processes）
 * Good-Papers：https://github.com/hoangcuong2011/Good-Papers
