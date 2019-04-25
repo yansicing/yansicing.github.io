@@ -38,6 +38,7 @@
 * BaiduTraffic：https://github.com/JingqingZ/BaiduTraffic
 * T-GCN：https://github.com/lehaifeng/T-GCN
 * STDN(Spatiotemporal Dynamic Network)：https://paperswithcode.com/paper/revisiting-spatial-temporal-similarity-a-deep
+* [Davidham-Chinese](https://davidham3.github.io/blog/2019/03/21/revisiting-spatial-temporal-similarity-a-deep-learning-framework-for-traffic-prediction/)
 ### Machine Learning
 * Machine learning topic：https://github.com/topics/machine-learning
 * Deep learning topic：https://github.com/topics/deep-learning
