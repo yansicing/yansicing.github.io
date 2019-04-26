@@ -14,6 +14,7 @@
 * Basic-Gaussian-Process-on-Tensorflow：https://github.com/shuuki4/Basic-Gaussian-Process-on-Tensorflow
 * A gentle introduction to Gaussian Process Regression：https://george.readthedocs.io/en/latest/tutorials/first/
 * Gaussian Processes regression: basic introductory example：https://scikit-learn.org/stable/auto_examples/gaussian_process/plot_gpr_noisy_targets.html
+* [The Kernel Cookbook](http://www.cs.toronto.edu/~duvenaud/cookbook/index.html)
 ### Uncertainty
 * Uncertainty_Course：https://github.com/mbolic2/Uncertainty_Course
 * uncertainty：https://github.com/erikbern/uncertainty/blob/master/notebook.ipynb
