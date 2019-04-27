@@ -1,3 +1,13 @@
+---
+title: markdown基本语法
+layout: post
+
+categories: Programming
+tags: markdown
+
+excerpt: markdown的基本语法
+---
+
 markdown的基本语法：
 markdown一级标题（0个数以上的=）
 ====

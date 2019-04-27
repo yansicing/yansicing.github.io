@@ -1,11 +1,14 @@
 ---
 title: 搭建Github Pages个人博客网站
 layout: post
-tags: github-pages jekyll
-categories: 网站
+
+categories: Website
+tags: github-pages jekyll website
+
 excerpt: Jekyll搭建Github Pages个人博客
 ---
-### 目录 <span id="home">
+
+### Catalogue <span id="home">
 
 * [引言](#1)
 	* [关于博客](#1.1)

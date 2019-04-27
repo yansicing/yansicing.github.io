@@ -1,7 +1,7 @@
 ---
 title: Markdown完整语法说明
 layout: post
-categories: 编程
+categories: Programming
 tags: markdown
 excerpt: 完整版markdown语法
 ---
