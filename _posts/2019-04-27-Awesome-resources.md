@@ -1,4 +1,13 @@
-[]()
+---
+title: Awesome Resources Summary  
+layout: post
+
+categories: Resources
+tags: Tools Resources
+
+excerpt: Useful websites and resources~
+---
+
 * [mlhub123-Machine learning navigation station](https://www.mlhub123.com/ )
 * [github trending](https://github.com/trending)
 * [paperswithcode](https://paperswithcode.com/sota)
