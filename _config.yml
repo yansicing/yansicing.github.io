@@ -19,17 +19,17 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "https://yansicing.github.io"
 permalink: /:year/:month/:day/:title
-repository: knightyun/knightyun.github.io
+repository: yansicing/yansicing.github.io
 paginate: 5
 
 # MatJek specific configurations
-github_profile: "https://github.com/knightyun"
-user: "黄琦雲"
-user_email: "2386209384@qq.com"
+github_profile: "https://github.com/yansicing "
+user: "yansicing "
+user_email: "413597914@qq.com"
 # contact_url: "https://goo.gl/tVljbV"
 # google_tracking_id: "UA-96359860-1"
 # google_site_verification: "UA-96359860-1"
-# disqus_shortname: "黄琦雲"
+# disqus_shortname: "yansicing"
 
 # Build settings
 markdown: kramdown
