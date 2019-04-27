@@ -64,5 +64,6 @@ The theme is available as open source under the terms of the [GPL v3 License](ht
 * [Morphtext](http://morphext.fyianlai.com/)
 
 ## References
-* https://github.com/DONGChuan/Yummy-Jekyll/
-* https://github.com/codinfox/codinfox-lanyon/
+* [knightyun](https://knightyun.github.io/)
+* [DONGChuan_Yummy-Jekyll](https://github.com/DONGChuan/Yummy-Jekyll/)
+* [codinfox-lanyon](https://github.com/codinfox/codinfox-lanyon/)
