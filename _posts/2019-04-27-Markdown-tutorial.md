@@ -3,27 +3,29 @@ title: Markdown Tutorial
 layout: post
 categories: Language
 tags: Markdown
-excerpt: markdown coursebook
+excerpt: markdown grammar simple tutorial
 ---
----------
 
-## 目录 <span id="home">
+## Markdown简明语法教程 <span id="home">
+---
+	
+### 目录
 
-* **[Markdown简明语法](#1)**
-	* **[Markdown及扩展](#1.1)**
-		* **[表格](#1.1.1)**
-		* **[图片](#1.1.2)**
-		* **[列表](#1.1.3)**
-		* **[代码](#1.1.4)**
-		* **[脚注](#1.1.5)**
-		* **[公式](#1.1.6)**
-	* **[浏览器兼容](#1.2)**
-	* **[常用Markdown编辑器推荐](#1.3)**
-        * **[参考文献](#1.4)**
----------
+* **[特性介绍](#1)**
+	* **[常用](#1.1)**
+	* **[表格](#1.2)**
+	* **[图片](#1.3)**
+	* **[列表](#1.4)**
+	* **[代码](#1.5)**
+	* **[脚注](#1.6)**
+	* **[公式](#1.7)**
+* **[浏览器兼容](#2)**
+* **[常用Markdown编辑器推荐](#3)**
+* **[参考文献](#4)**
+---
 
-## Markdown简明语法<span id="1">
-
+### 特性介绍<span id="1">
+	
 - **Markdown和扩展Markdown简洁的语法**
 - **代码块高亮**
 - **图片链接和图片上传**
@@ -31,9 +33,9 @@ excerpt: markdown coursebook
 - **离线写博客**
 - **导入导出Markdown文件**
 
--------------------
+---
 
-### Markdown及扩展 <span id="1.1">
+#### 常用 <span id="1.1">
 
 - > 引用 Quote —— <a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank"> [ 维基百科 ]
 - **粗体 Bold**
@@ -41,7 +43,7 @@ excerpt: markdown coursebook
 - [链接 Link](https://yansicing.github.io/)
 - 参考 References [Markdown Extra][2]
 
-#### 表格 <span id="1.1.1">
+#### 表格 <span id="1.2">
 
 - **Markdown　Extra**表格语法
 
@@ -58,7 +60,7 @@ Phone    | $12
 | Phone     |   12 元 |  12  |
 | Pipe      |    1 元 | 234  |
 
-#### 图片 <span id="1.1.2">
+#### 图片 <span id="1.3">
 - 格式一：简单
  
 ``` markdown
@@ -71,7 +73,7 @@ Phone    | $12
 <img src="http://yansicing.net3v.net/head.jpg" alt="download-failed" width="100px"  height="100px">
 ```
 
-#### 列表 <span id="1.1.3">
+#### 列表 <span id="1.4">
 
 **Markdown　Extra**列表语法：
 项目１
@@ -85,7 +87,7 @@ Phone    | $12
 
 	> 定义D内容
 
-#### 代码 <span id="1.1.4">
+#### 代码 <span id="1.5">
 
 - Python:
 
@@ -114,18 +116,18 @@ class SomeClass:
 
 ```
 
-#### 脚注  <span id="1.1.5">
+#### 脚注  <span id="1.6">
 
 - 生成一个脚注[^footnote]
   [^footnote]: 这里是 **脚注** 的 *内容*
   
-#### 公式  <span id="1.1.6">
+#### 公式  <span id="1.7">
 使用MathJax渲染 *LaTex* 数学公式，详见[math.stackexchange.com][1]，更多LaTex语法参考[mathjax-basic-tutorial-and-quick-reference][3]
 
  - 行内公式：$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
  - 块级公式：\$$ \$$ $$	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 
-### 浏览器 <span id="1.2">
+### 浏览器 <span id="2">
 
  1. 本编辑器对Chrome浏览器支持最完整,建议使用较新版本Chrome
  2. IE9以下不支持
@@ -134,7 +136,7 @@ class SomeClass:
     1. IE9不支持文件导入导出
     1. IE10不支持拖拽文件导入
 
-### 常用Markdown编辑器推荐 <span id="1.3">
+### 常用Markdown编辑器推荐 <span id="3">
 
 1. **Markdownpad**：[官网](http://markdownpad.com/)
 （貌似专业版需要收取一定dollars$，需要序列号自行baidu。）
@@ -144,7 +146,7 @@ class SomeClass:
 4. **Harropad**: [官网](http://pad.haroopress.com/user.html)
 5. **Retext**: 简单强大的文本编辑器，可控制输出格式pdf, html等，仅支持Linux（推荐）[下载](https://github.com/retext-project/retext)
 
-### 参考文献 <span id="1.4">
+#### 参考文献 <span id="4">
 - [knightyun](https://knightyun.github.io)
 
 ------
