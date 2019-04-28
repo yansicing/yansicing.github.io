@@ -5,7 +5,6 @@ categories: Language
 tags: Markdown
 excerpt: markdown grammar simple tutorial
 ---
-
 ## Markdown简明语法教程 <span id="home">
 ---
 	
@@ -22,6 +21,7 @@ excerpt: markdown grammar simple tutorial
 * **[浏览器兼容](#2)**
 * **[常用Markdown编辑器推荐](#3)**
 * **[参考文献](#4)**
+* 
 ---
 
 ### 特性介绍<span id="1">
