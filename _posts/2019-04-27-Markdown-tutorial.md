@@ -17,9 +17,9 @@ excerpt: markdown coursebook
 		* **[代码](#1.1.4)**
 		* **[脚注](#1.1.5)**
 		* **[公式](#1.1.6)**
-	* **[浏览器](#1.2)**
-	* **[常用Markdown编辑器推荐](#1.3)**
-
+	* **[浏览器兼容](#1.2)**
+	* **[常用Markdown编辑器推荐](#1.2)**
+        * **[参考文献](#1.2)**
 ---------
 
 ## Markdown简明语法<span id="1">
@@ -128,13 +128,13 @@ class SomeClass:
 ### 浏览器 <span id="1.2">
 
  1. 本编辑器对Chrome浏览器支持最完整,建议使用较新版本Chrome
- 2. IE９以下不支持
- 3. IE９，１０，１１存在以下问题
+ 2. IE9以下不支持
+ 3. IE9，10，11存在以下问题
     1. 不支持离线功能
     1. IE9不支持文件导入导出
     1. IE10不支持拖拽文件导入
 
-### 常用Markdown编辑器推荐 <span id="1.3">
+### 常用Markdown编辑器推荐 <span id="1.2">
 
 1. **Markdownpad**：[官网](http://markdownpad.com/)
 （貌似专业版需要收取一定dollars$，需要序列号自行baidu。）
@@ -143,6 +143,9 @@ class SomeClass:
 3. **CSDN博客编辑器**：CSDN内置编辑器
 4. **Harropad**: [官网](http://pad.haroopress.com/user.html)
 5. **Retext**: 简单强大的文本编辑器，可控制输出格式pdf, html等，仅支持Linux（推荐）[下载](https://github.com/retext-project/retext)
+
+### 参考文献 <span id="1.2">
+- [knightyun](https://knightyun.github.io)
 
 ------
 
