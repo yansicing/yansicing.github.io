@@ -6,7 +6,6 @@ tags: Markdown
 excerpt: markdown basic grammar tutorial
 ---
 ## Markdown简明语法教程 <span id="home">
----
 	
 ### 目录
 
@@ -21,12 +20,12 @@ excerpt: markdown basic grammar tutorial
 * **[浏览器兼容](#2)**
 * **[常用Markdown编辑器推荐](#3)**
 * **[参考文献](#4)**
-* 
+
 ---
 
 ### 特性介绍<span id="1">
 	
-- **Markdown和扩展Markdown简洁的语法**
+- **Markdown简洁语法**
 - **代码块高亮**
 - **图片链接和图片上传**
 - ***LaTex*数学公式**
@@ -37,54 +36,41 @@ excerpt: markdown basic grammar tutorial
 
 #### 常用 <span id="1.1">
 
-- ##### 引用<br> 
+- __引用__<br> 
 > Quote写法：\> Quote <br> 
 
-- 粗体<br> 
+- __粗体__<br> 
 **Bold**写法：\**Bold**<br> 
 
-- 斜体<br> 
+- __斜体__<br> 
 *Italic*写法：\*Italic*<br> 
 
-- 链接<br> 
+- __链接__<br> 
 [Link](https://yansicing.github.io/)写法：\[Link](https://yansicing.github.io/)
 
-- 参考<br> 
+- __参考__<br> 
 References [Markdown Extra][2]：References \[Markdown Extra\]\[2\]
 
-- 横线<br> 
+- __横线__<br> 
 下划线_或星号*三个以上<br> 
 
-- 换行<br> 
+- __换行__<br> 
 \<br> 或 \<\br> <br>
 
-- 单行文字空格<br> 
-单行文字首个空格会被忽略，如果想要显示首行空格，把输入法的半角改成全角输入 <br>
-
-- 单行文字显示<br> 
-    单行文本显示，在首行加入俩个tab键或四个空格 <br>
-	
-- 多行文字显示<br> 
-    多行文本显示，在首行加入俩个tab键或四个空格 <br>
-    多行文本显示，在首行加入俩个tab键或四个空格 <br>
-    多行文本显示，在首行加入俩个tab键或四个空格 <br>
-
-- 文字高亮显示<br> 
-将强调部分用 \`  ` 包围起来，达到文字`高亮显示`<br>
+- __文字高亮显示__<br> 
+将强调部分用 \`\`包围起来，达到文字`高亮显示Highlight`<br>
 注意不是单引号，而是Tab上方，数字1左边按键（英文输入法）<br>
 
-- 普通分级
-1. 数字后面加一个点，再加一个空格
-2. 数字后面加一个点，再加一个空格
-3. 数字后面加一个点，再加一个空格
+- __普通分级__<br>
+数字+点+空格
 
-- 圆点符分级<br> 
+- __圆点符分级__<br> 
 * 一级圆点号 ： `星号* + 空格` 
 	* 二级圆点号：`tab + 星号* + 空格`
 		* 三级圆点号：`2个tab + 星号* + 空格` 
 	
-- 缩进符分级
-n个\> <br>
+- __缩进符分级__
+n个 \> ：层次n <br>
 
 > 层次一  
 >> 层次二
@@ -92,8 +78,19 @@ n个\> <br>
 >>>> 层次四
 >>>>> 层次五
 
-- 标题<br> 
-\# 一级标题<br>
+- __单行文字空格__<br> 
+ 单行文字首个空格会被忽略，如果想要显示首行空格，把输入法的半角改成全角输入 <br>
+
+- __单行文字显示__<br> 
+        单行文本显示，在首行加入俩个tab键或四个空格 <br>
+	
+- __多行文字显示__<br> 
+        多行文本显示，在首行加入俩个tab键或四个空格 <br>
+        多行文本显示，在首行加入俩个tab键或四个空格 <br>
+        多行文本显示，在首行加入俩个tab键或四个空格 <br>
+
+- __标题__<br> 
+\# n级标题<br>
 
 # 一级标题
 ## 二级标题
@@ -102,76 +99,18 @@ n个\> <br>
 ##### 五级标题
 ###### 六级标题
 
-- 插入图片<br> 
-网络上的图片格式：\!\[](图片URL)<br> 
-[]方括号里可以加描述，描述不会对图像显示造成任何改动 <br>
-![yansicing](http://yansicing.net3v.net/head.jpg) <br>
-
- 在URL后面，加双引号包围的字符串，显示悬停 <br>
-![yansicing](http://yansicing.net3v.net/head.jpg " head portrait ")<br>
-
- GitHub仓库里的图片，格式：\!\[](图片URL)<br>
- 图片URL格式：` https://github.com/ 用户名 / 项目名 / raw / 分支名 / 存放图片的文件夹 / 该文件夹下的图片`<br>
-![github picture](https://github.com/yansicing/yansicing.github.io/raw/master/assets/res/logo.png)<br>
-
- 图片加超链接格式：文字链接格式 + 插入图片格式 即：
-\[\!\[](图片URL) \](图片的超链接)<br>
-[![yansicing](http://yansicing.net3v.net/head.jpg)](https://yansicing.github.io)<br>
-
- 文字悬停，第一种方式 <br>
-[![yansicing](http://yansicing.net3v.net/head.jpg "yansicing")](https://yansicing.github.io)<br>
-
- 文字悬停，第二种方式 <br>
-[![yansicing](http://yansicing.net3v.net/head.jpg)](http://https://yansicing.github.io "yansicing.github.io")<br>
-
-- 插入代码片段<br>
-在代码起始行用三个\`标记，Tab键上面的键。语法高亮要在 \`之后加上编程语言（忽略大小写）<br>
-
- 普通写法
-```
-Drawable drawable = ivSystem.getDrawable();//java
-```
-
- 高亮写法
-``` java
-Drawable drawable = ivSystem.getDrawable();//java
-```
-
-- 锚点<br>
+- __锚点__<br>
 其实每一个标题都是一个锚点（移动到某个位置）<br>
 比如 [回到顶部](### 目录)
 
-- 表格<br>
-每个格短横线-要大于一个<br>
+#### 表格 <span id="1.2">
+
+- 每个格短横线-要大于一个：
 
 |表头1  |表头2  |
 |--- |---|
 |内容1  |内容2  |
 |内容1  |内容2  |
-
-- 字体<br>
-|语法    |效果  |
-|---|---|
-| \*斜体1* | *斜体1* |
-| \_斜体2_ | _斜体2_|
-| \*\*粗体1** | **粗体1** |
-| \_\_粗体2__ | __粗体2__|
-|  \~\~删除线~~ | ~~删除线~~ |
-| \*\*\*斜粗体1*** | ***斜粗体1*** |
-| \_\_\_斜粗体2___ | ___斜粗体2___ |
-| \*\*\*\~\~斜粗体删除线1~~*** | ***~~斜粗体删除线1~~*** |
-| \~\~\*\*\*斜粗体删除线2***~~ | ~~***斜粗体删除线2***~~ |
-
-- ##### [Above reference][7]
-
-#### 表格 <span id="1.2">
-
-- **Markdown　Extra**表格语法
-
-项目     | 价格
---- | ---
-Computer | $1600
-Phone    | $12
 
 - 冒号定义左右对齐：
 
@@ -182,17 +121,39 @@ Phone    | $12
 | Pipe      |    1 元 | 234  |
 
 #### 图片 <span id="1.3">
-- 格式一：简单
+- __格式一__：简单
  
 ``` markdown
  ![head](http://yansicing.net3v.net/head.jpg)
 ```
 
-- 格式二：(可设置图片尺寸)
+- __格式二__：(可设置图片尺寸)
 
 ``` html
 <img src="http://yansicing.net3v.net/head.jpg" alt="download-failed" width="100px"  height="100px">
 ```
+
+- __插入图片__<br> 
+
+>> GitHub仓库图片格式：\!\[](图片URL)<br>
+>> 图片URL格式：` https://github.com/ 用户名 / 项目名 / raw / 分支名 / 存放图片的文件夹 / 该文件夹下的图片`<br>
+>> ![github picture](https://github.com/yansicing/yansicing.github.io/raw/master/assets/res/logo.png)<br>
+
+>> 网络上图片格式：\!\[](图片URL)<br> 
+![yansicing](http://yansicing.net3v.net/head.jpg) <br>
+
+>> 在URL后面，加双引号包围的字符串，显示悬停： <br>
+>> ![yansicing](http://yansicing.net3v.net/head.jpg " head portrait ")<br>
+
+>> 图片加超链接格式：文字链接格式 + 插入图片格式 即：
+>> \[\!\[](图片URL) \](图片的超链接)<br>
+>> [![yansicing](http://yansicing.net3v.net/head.jpg)](https://yansicing.github.io)<br>
+
+>> 文字悬停，第一种方式： <br>
+[![yansicing](http://yansicing.net3v.net/head.jpg "yansicing")](https://yansicing.github.io)<br>
+
+>> 文字悬停，第二种方式： <br>
+[![yansicing](http://yansicing.net3v.net/head.jpg)](http://https://yansicing.github.io "yansicing.github.io")<br>
 
 #### 列表 <span id="1.4">
 
@@ -209,6 +170,19 @@ Phone    | $12
 	> 定义D内容
 
 #### 代码 <span id="1.5">
+
+- __插入代码片段__<br>
+在代码起始行用三个\`标记，Tab键上面的键。语法高亮要在 \`之后加上编程语言（忽略大小写）<br>
+
+普通写法：
+```
+Drawable drawable = ivSystem.getDrawable();//java
+```
+
+高亮写法：
+``` java
+Drawable drawable = ivSystem.getDrawable();//java
+```
 
 - Python:
 
@@ -269,7 +243,7 @@ class SomeClass:
 
 #### 参考文献 <span id="4">
 - [knightyun](https://knightyun.github.io)
-
+- [Rain_9155](https://blog.csdn.net/rain_9155/article/details/82731732)
 ------
 
 #### **返回[顶部](#home)**
@@ -282,4 +256,4 @@ class SomeClass:
 [4]: http://bramp.github.io/js-sequence-diagrams/
 [5]: http://adrai.github.io/flowchart.js/
 [6]: https://github.com/benweet/stackedit
-[7]: https://blog.csdn.net/rain_9155/article/details/82731732
+[7]: https://blog.csdn.net/rain_9155/article/details/827317
