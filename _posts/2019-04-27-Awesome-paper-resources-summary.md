@@ -3,7 +3,7 @@ title: Awesome Resources Summary
 layout: post
 categories: Resources
 tags: Paper Resources
-excerpt: Useful websites and resources~
+excerpt: Useful paper related websites and resources~
 ---
 ### Awesome~
 * [mlhub123-Machine learning navigation station](https://www.mlhub123.com/ )
