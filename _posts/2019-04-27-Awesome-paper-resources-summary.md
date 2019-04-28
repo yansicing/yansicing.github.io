@@ -26,11 +26,11 @@ excerpt: Useful websites and resources~
 * [Gaussian Processes Introduction-pyro.ai](http://pyro.ai/examples/gp.html)
 
 ### Uncertainty
-* Uncertainty_Course：https://github.com/mbolic2/Uncertainty_Course
-* uncertainty：https://github.com/erikbern/uncertainty/blob/master/notebook.ipynb
-* ml-prediction-uncertainty：https://github.com/madsenmj/ml-prediction-uncertainty
+* [Uncertainty_Course](https://github.com/mbolic2/Uncertainty_Course)
+* [uncertainty](https://github.com/erikbern/uncertainty/blob/master/notebook.ipynb)
+* [ml-prediction-uncertainty](https://github.com/madsenmj/ml-prediction-uncertainty)
 * [Predicting-weather-forecast-uncertainty-with-machine-learning](https://github.com/seb1000/Predicting-weather-forecast-uncertainty-with-machine-learning)
-* ml_uncertainty_py：https://github.com/usnistgov/ml_uncertainty_py
+* [ml_uncertainty_py](https://github.com/usnistgov/ml_uncertainty_py)
 * [Robust-optimization-using-Machine-learning-for-building-Uncertainty-Sets](https://github.com/priyanka-sharma29/Robust-Optimization-using-Machine-Learning-for-building-Uncertainty-Sets)
 
 ### GCN
