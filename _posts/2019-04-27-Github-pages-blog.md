@@ -7,7 +7,7 @@ tags: Github-pages Blog
 
 excerpt: Jekyll builds github pages personal blog website
 ---
-## Jekyll搭建Github Pages个人博客 <span id="home">
+### Jekyll搭建Github Pages个人博客 <span id="home">
 ---
 
 ### 目录 <span id="home">
