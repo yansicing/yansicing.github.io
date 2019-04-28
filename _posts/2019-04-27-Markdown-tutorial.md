@@ -37,34 +37,26 @@ excerpt: markdown basic grammar tutorial
 
 #### 常用 <span id="1.1">
 
-- 引用<br> 
-> Quote —— <a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank"> [ 维基百科 ]：\Quote —— <a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank"> [ 维基百科 ]<br> 
+- ##### 引用<br> 
+> Quote写法：\> Quote <br> 
 
 - 粗体<br> 
-**Bold**：\**Bold**<br> 
+**Bold**写法：\**Bold**<br> 
 
 - 斜体<br> 
-*Italic*：\*Italic*<br> 
+*Italic*写法：\*Italic*<br> 
 
 - 链接<br> 
-[Link](https://yansicing.github.io/)：\[Link](https://yansicing.github.io/)
+[Link](https://yansicing.github.io/)写法：\[Link](https://yansicing.github.io/)
 
 - 参考<br> 
 References [Markdown Extra][2]：References \[Markdown Extra\]\[2\]
 
-- 标题<br> 
-# 一级标题
-## 二级标题
-### 三级标题
-#### 四级标题
-##### 五级标题
-###### 六级标题
-
 - 横线<br> 
-下划线___或星号***三个以上<br> 
+下划线_或星号*三个以上<br> 
 
 - 换行<br> 
-使用 \<br> 或 \<\br> <br>
+\<br> 或 \<\br> <br>
 
 - 单行文字空格<br> 
 单行文字首个空格会被忽略，如果想要显示首行空格，把输入法的半角改成全角输入 <br>
@@ -78,7 +70,13 @@ References [Markdown Extra][2]：References \[Markdown Extra\]\[2\]
     多行文本显示，在首行加入俩个tab键或四个空格 <br>
 
 - 文字高亮显示<br> 
-将强调部分用 \`  ` 包围起来，达到文字`高亮显示`。注意不是单引号，而是Tab上方，数字1左边按键（英文输入法）<br>
+将强调部分用 \`  ` 包围起来，达到文字`高亮显示`<br>
+注意不是单引号，而是Tab上方，数字1左边按键（英文输入法）<br>
+
+- 普通分级
+1. 数字后面加一个点，再加一个空格
+2. 数字后面加一个点，再加一个空格
+3. 数字后面加一个点，再加一个空格
 
 - 圆点符分级<br> 
 * 一级圆点号 ： `星号* + 空格` 
@@ -86,66 +84,74 @@ References [Markdown Extra][2]：References \[Markdown Extra\]\[2\]
 		* 三级圆点号：`2个tab + 星号* + 空格` 
 	
 - 缩进符分级
+n个\> <br>
+
 > 层次一  
 >> 层次二
 >>> 层次三  
 >>>> 层次四
 >>>>> 层次五
 
-- 普通分级
-1. 数字后面加一个点，再加一个空格
-2. 数字后面加一个点，再加一个空格
-3. 数字后面加一个点，再加一个空格
+- 标题<br> 
+\# 一级标题<br>
+
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
 
 - 插入图片<br> 
 网络上的图片格式：\!\[](图片URL)<br> 
-[]方括号里加描述，描述不会对图像显示造成任何改动 <br>
+[]方括号里可以加描述，描述不会对图像显示造成任何改动 <br>
 ![yansicing](http://yansicing.net3v.net/head.jpg) <br>
 
-在URL后面，加双引号包围的字符串，显示悬停 <br>
+ 在URL后面，加双引号包围的字符串，显示悬停 <br>
 ![yansicing](http://yansicing.net3v.net/head.jpg " head portrait ")<br>
 
-GitHub仓库里的图片，格式：\!\[](图片URL)<br>
-URL格式：` https://github.com/ 用户名 / 项目名 / raw / 分支名 / 存放图片的文件夹 / 该文件夹下的图片`<br>
-![github picture](https://github.com/yansicing/yansicing.github.io/raw/master/assets/res/user.png)<br>
+ GitHub仓库里的图片，格式：\!\[](图片URL)<br>
+ 图片URL格式：` https://github.com/ 用户名 / 项目名 / raw / 分支名 / 存放图片的文件夹 / 该文件夹下的图片`<br>
+![github picture](https://github.com/yansicing/yansicing.github.io/raw/master/assets/res/logo.png)<br>
 
-图片加超链接格式：文字链接格式 + 插入图片格式 即：
+ 图片加超链接格式：文字链接格式 + 插入图片格式 即：
 \[\!\[](图片URL) \](图片的超链接)<br>
 [![yansicing](http://yansicing.net3v.net/head.jpg)](https://yansicing.github.io)<br>
 
-文字悬停，第一种方式 <br>
+ 文字悬停，第一种方式 <br>
 [![yansicing](http://yansicing.net3v.net/head.jpg "yansicing")](https://yansicing.github.io)<br>
 
-文字悬停，第二种方式 <br>
+ 文字悬停，第二种方式 <br>
 [![yansicing](http://yansicing.net3v.net/head.jpg)](http://https://yansicing.github.io "yansicing.github.io")<br>
 
 - 插入代码片段<br>
-需要在代码的上一行和下一行用三个\`标记，不是三个单引号，而是数字1左边，Tab键上面的键。语法高亮要在 \`之后加上编程语言（忽略大小写）<br>
+在代码起始行用三个\`标记，Tab键上面的键。语法高亮要在 \`之后加上编程语言（忽略大小写）<br>
 
-普通写法
+ 普通写法
 ```
 Drawable drawable = ivSystem.getDrawable();//java
 ```
 
-高亮写法
+ 高亮写法
 ``` java
 Drawable drawable = ivSystem.getDrawable();//java
 ```
 
 - 锚点<br>
-其实每一个标题都是一个锚点（移动到某个位置），比如 [回到顶部](### 目录)
+其实每一个标题都是一个锚点（移动到某个位置）<br>
+比如 [回到顶部](### 目录)
 
 - 表格<br>
 每个格短横线-要大于一个<br>
 
 |表头1  |表头2  |
-|--- |-------|
+|--- |---|
 |内容1  |内容2  |
 |内容1  |内容2  |
 
 - 字体<br>
 |语法    |效果  |
-|-------|-------|
+|---|---|
 | \*斜体1* | *斜体1* |
 | \_斜体2_ | _斜体2_|
 | \*\*粗体1** | **粗体1** |
@@ -156,21 +162,21 @@ Drawable drawable = ivSystem.getDrawable();//java
 | \*\*\*\~\~斜粗体删除线1~~*** | ***~~斜粗体删除线1~~*** |
 | \~\~\*\*\*斜粗体删除线2***~~ | ~~***斜粗体删除线2***~~ |
 
-[Above reference][7]
+- ##### [Above reference][7]
 
 #### 表格 <span id="1.2">
 
 - **Markdown　Extra**表格语法
 
 项目     | 价格
--------- | ---
+--- | ---
 Computer | $1600
 Phone    | $12
 
 - 冒号定义左右对齐：
 
 | 项目      |    价格 | 数量  |
-| :-------- | --------:| :--: |
+| :--- | ---:| :--: |
 | Computer  | 1600 元 |  5   |
 | Phone     |   12 元 |  12  |
 | Pipe      |    1 元 | 234  |
@@ -237,7 +243,7 @@ class SomeClass:
   [^footnote]: 这里是 **脚注** 的 *内容*
   
 #### 公式  <span id="1.7">
-使用MathJax渲染 *LaTex* 数学公式，详见[math.stackexchange.com][1]，更多LaTex语法参考[mathjax-basic-tutorial-and-quick-reference][3]
+ 使用MathJax渲染 *LaTex* 数学公式，详见[math.stackexchange.com][1]，更多LaTex语法参考[mathjax-basic-tutorial-and-quick-reference][3]
 
  - 行内公式：$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
  - 块级公式：\$$ \$$ $$	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
