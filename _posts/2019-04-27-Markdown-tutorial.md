@@ -2,28 +2,30 @@
 title: Markdown Tutorial
 layout: post
 categories: Language
-tags: markdown
-excerpt: markdown coursebook
+tags: Markdown
+excerpt: markdown grammar simple tutorial
 ---
----------
 
-## 目录 <span id="home">
+## Markdown简明语法教程 <span id="home">
+---
+	
+### 目录
 
-* **[Markdown简明语法](#1)**
-	* **[Markdown及扩展](#1.1)**
-		* **[表格](#1.1.1)**
-		* **[插入图片](#1.1.2)**
-		* **[定义列表](#1.1.3)**
-		* **[代码块](#1.1.4)**
-		* **[脚注](#1.1.5)**
-		* **[数学公式](#1.1.6)**
-	* **[浏览器兼容](#1.2)**
-	* **[常用Markdown编辑器推荐](#1.3)**
+* **[特性介绍](#1)**
+	* **[常用](#1.1)**
+	* **[表格](#1.2)**
+	* **[图片](#1.3)**
+	* **[列表](#1.4)**
+	* **[代码](#1.5)**
+	* **[脚注](#1.6)**
+	* **[公式](#1.7)**
+* **[浏览器兼容](#2)**
+* **[常用Markdown编辑器推荐](#3)**
+* **[参考文献](#4)**
+---
 
----------
-
-## Markdown简明语法<span id="1">
-
+### 特性介绍<span id="1">
+	
 - **Markdown和扩展Markdown简洁的语法**
 - **代码块高亮**
 - **图片链接和图片上传**
@@ -31,27 +33,26 @@ excerpt: markdown coursebook
 - **离线写博客**
 - **导入导出Markdown文件**
 
--------------------
+---
 
-### Markdown及扩展 <span id="1.1">
+#### 常用 <span id="1.1">
 
-> Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。    —— <a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank"> [ 维基百科 ]
+- > 引用 Quote —— <a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank"> [ 维基百科 ]
+- **粗体 Bold**
+- *斜体 Italic*
+- [链接 Link](https://yansicing.github.io/)
+- 参考 References [Markdown Extra][2]
 
-使用简单的符号标识不同的标题，将某些文字标记为**粗体**或者*斜体*，创建一个[链接](http://www.csdn.net)等，详细语法参考帮助？。
+#### 表格 <span id="1.2">
 
-本编辑器支持 **Markdown Extra** , 　扩展了很多好用的功能。具体请参考[Github][2].  
-
-#### 表格 <span id="1.1.1">
-
-**Markdown　Extra**　表格语法：
+- **Markdown　Extra**表格语法
 
 项目     | 价格
 -------- | ---
 Computer | $1600
 Phone    | $12
-Pipe     | $1
 
-可以使用冒号来定义对齐方式：
+- 冒号定义左右对齐：
 
 | 项目      |    价格 | 数量  |
 | :-------- | --------:| :--: |
@@ -59,22 +60,22 @@ Pipe     | $1
 | Phone     |   12 元 |  12  |
 | Pipe      |    1 元 | 234  |
 
-#### 插入图片 <span id="1.1.2">
- >格式一：
+#### 图片 <span id="1.3">
+- 格式一：简单
  
 ``` markdown
- ![picture-name](http://xxx.com/xxx.png)
+ ![head](http://yansicing.net3v.net/head.jpg)
 ```
 
->格式二：(方便设置图片尺寸)
+- 格式二：(可设置图片尺寸)
 
 ``` html
-<img src="http://xxx.com/xxx.png" alt="download-failed" width="XXXpx"  height="XXXpx">
+<img src="http://yansicing.net3v.net/head.jpg" alt="download-failed" width="100px"  height="100px">
 ```
 
-#### 定义列表 <span id="1.1.3">
+#### 列表 <span id="1.4">
 
-**Markdown　Extra**　定义列表语法：
+**Markdown　Extra**列表语法：
 项目１
 项目２
 :   定义 A
@@ -82,20 +83,19 @@ Pipe     | $1
 
 项目３
 :   定义 C
-
 :   定义 D
 
 	> 定义D内容
 
-#### 代码块 <span id="1.1.4">
-代码块语法遵循标准markdown代码，例如：
->python:
+#### 代码 <span id="1.5">
+
+- Python:
 
 ``` python
 @requires_authorization
 def somefunc(param1='', param2=0):
     '''A docstring'''
-    if param1 > param2: # interesting
+    if param1 > param2: # interesting yansicing~
         print 'Greater'
     return (param2 - param1 + 1) or None
 class SomeClass:
@@ -104,58 +104,54 @@ class SomeClass:
 ... prompt'''
 ```
 
->c语言:
+- C:
 
 ``` c
 
 #include <stdio.h>
 	int main()
 	{
-		printf("Hello world!");
+		printf("Hello yansicing~");
 	}
 
 ```
 
-#### 脚注  <span id="1.1.5">
+#### 脚注  <span id="1.6">
 
-生成一个脚注[^footnote].
-  [^footnote]: 这里是 **脚注** 的 *内容*.
+- 生成一个脚注[^footnote]
+  [^footnote]: 这里是 **脚注** 的 *内容*
   
+#### 公式  <span id="1.7">
+使用MathJax渲染 *LaTex* 数学公式，详见[math.stackexchange.com][1]，更多LaTex语法参考[mathjax-basic-tutorial-and-quick-reference][3]
 
-#### 数学公式  <span id="1.1.6">
-使用MathJax渲染*LaTex* 数学公式，详见[math.stackexchange.com][1].
+ - 行内公式：$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
+ - 块级公式：\$$ \$$ $$	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 
- - 行内公式，数学公式为：$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。
- - 块级公式：
+### 浏览器 <span id="2">
 
-$$	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
-
-更多LaTex语法请参考 [这儿][3].
-
-### 浏览器兼容 <span id="1.2">
-
- 1. 目前，本编辑器对Chrome浏览器支持最为完整。建议大家使用较新版本的Chrome。
- 3. IE９以下不支持
- 4. IE９，１０，１１存在以下问题
+ 1. 本编辑器对Chrome浏览器支持最完整,建议使用较新版本Chrome
+ 2. IE9以下不支持
+ 3. IE9，10，11存在以下问题
     1. 不支持离线功能
     1. IE9不支持文件导入导出
     1. IE10不支持拖拽文件导入
 
-### 常用Markdown编辑器推荐 <span id="1.3">
+### 常用Markdown编辑器推荐 <span id="3">
 
-1. **Markdownpad**： 详情请点击 [官网](http://markdownpad.com/)。
+1. **Markdownpad**：[官网](http://markdownpad.com/)
 （貌似专业版需要收取一定dollars$，需要序列号自行baidu。）
-2.  **Markpad**：详情前往 [官网](http://markpad.fluid.impa.br/)。
+2. **Markpad**：[官网](http://markpad.fluid.impa.br/)
 （推荐使用，Microsoft Store也有，完全免费，支持及时效果浏览。）
-3. **CSDN博客编辑器**：CSDN网站内置编辑器。（这篇文件就是这样写出来的-_-)
-
+3. **CSDN博客编辑器**：CSDN内置编辑器
 4. **Harropad**: [官网](http://pad.haroopress.com/user.html)
+5. **Retext**: 简单强大的文本编辑器，可控制输出格式pdf, html等，仅支持Linux（推荐）[下载](https://github.com/retext-project/retext)
 
-5. **Retext**: 简单强大的文本编辑器，可控制输出格式：pdf, html等，仅支持Linux（推荐）.[下载](https://github.com/retext-project/retext)
+#### 参考文献 <span id="4">
+- [knightyun](https://knightyun.github.io)
 
 ------
 
-## **返回[顶部](#home)**
+#### **返回[顶部](#home)**
 
 ---------
 

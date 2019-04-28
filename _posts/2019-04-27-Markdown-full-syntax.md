@@ -1,19 +1,15 @@
 ---
-title: Markdown完整语法说明
+title: Markdown Full Syntax
 layout: post
-categories: Programming
-tags: markdown
-excerpt: 完整版markdown语法
+categories: Language
+tags: Markdown
+excerpt: markdown syntax full version
 ---
+
 ## Markdown 完整语法说明 <span id="home">
-
 ---
-
-辛勤的搬运工，原文链接<http://wowubuntu.com/markdown/index.html>
-
----
-
-## 目录
+	
+### 目录
 
 * **[概述 ](#1)**
 	* **[宗旨 ](#1.1)**
@@ -611,7 +607,7 @@ Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的�
 
 -----
 
-## **返回[顶部](#home)**
+#### **返回[顶部](#home)**
 
 ----
 
