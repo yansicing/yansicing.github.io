@@ -6,7 +6,8 @@ tags: Markdown
 excerpt: markdown basic grammar tutorial
 ---
 ## Markdown简明语法教程 <span id="home">
----	
+---
+	
 ### 目录
 
 * **[特性介绍](#1)**
@@ -116,9 +117,9 @@ n个 \> ：层次n <br>
 
 | 项目      |    价格 | 数量  |
 | :--- | ---:| :--: |
-| Computer  | 1600 元 |  5   |
-| Phone     |   12 元 |  12  |
-| Pipe      |    1 元 | 234  |
+| iMac  | 8390 RMB |  1  |
+| iPad  | 2499 RMB |  2  |
+| iPhone| 6199 RMB |  3  |
 
 #### 图片 <span id="1.3">
 - __格式一__：简单
@@ -241,13 +242,13 @@ class SomeClass:
 4. **Harropad**: [官网](http://pad.haroopress.com/user.html)
 5. **Retext**: 简单强大的文本编辑器，可控制输出格式pdf, html等，仅支持Linux（推荐）[下载](https://github.com/retext-project/retext)
 
-###### 参考文献 <span id="4">
+##### 参考文献 <span id="4">
 - [knightyun](https://knightyun.github.io)
 - [Rain_9155](https://blog.csdn.net/rain_9155/article/details/82731732)
 
 ------
 
-###### **返回[顶部](#home)**
+##### **返回[顶部](#home)**
 
 ---------
 
