@@ -94,12 +94,3 @@ excerpt: Useful paper related websites and resources~
 * [3d-visualization](https://oculus-3d-visualization-c5687.firebaseapp.com/dashboard#myModal)
 * [3D Graphing Tool](https://www.geogebra.org/3d)
 * [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-### MarkDown
-* Point：> * 
-* equation：$$ f(x) $$
-* code： ''' yang '''
-* table：| 1 | 2 | 3 |  |:-:|:-:|:-:|
-* cite：[ ]( )
-* bold：### 
-* inline code block：`
