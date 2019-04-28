@@ -2,7 +2,7 @@
 title: Markdown Tutorial
 layout: post
 categories: Language
-tags: markdown
+tags: Markdown
 excerpt: markdown coursebook
 ---
 ---------
