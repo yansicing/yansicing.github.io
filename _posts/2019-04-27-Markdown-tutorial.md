@@ -3,7 +3,7 @@ title: Markdown Tutorial
 layout: post
 categories: Language
 tags: Markdown
-excerpt: markdown grammar simple tutorial
+excerpt: markdown basic grammar tutorial
 ---
 ## Markdown简明语法教程 <span id="home">
 ---
@@ -42,6 +42,102 @@ excerpt: markdown grammar simple tutorial
 - *斜体 Italic*
 - [链接 Link](https://yansicing.github.io/)
 - 参考 References [Markdown Extra][2]
+
+- # 一级标题
+- ## 二级标题
+- ### 三级标题
+- #### 四级标题
+- ##### 五级标题
+- ###### 六级标题
+- 横线
+下划线_或星号*三个以上
+___
+***
+- 换行<br> 
+使用 \<br> 或 \<\br> <br>
+- 单行文字空格
+单行文字首个空格都会被忽略 <br>
+ 如果想要显示首行空格，把输入法的半角改成全角输入 <br>
+- 单行文字显示
+    单行文本显示，在首行加入俩个tab键或四个空格 <br>
+- 多行文字显示
+    多行文本显示，在首行加入俩个tab键或四个空格 <br>
+    多行文本显示，在首行加入俩个tab键或四个空格 <br>
+    多行文本显示，在首行加入俩个tab键或四个空格 <br>
+- 文字高亮显示
+将强调部分用 \`  ` 包围起来，达到文字`高亮显示`。注意这不是单引号，而是Tab上方，数字1左边按键（英文输入法）<br>
+
+- 圆点符分级
+* 一级圆点号 ： `星号* + 空格` 
+  * 二级圆点号：`tab + 星号* + 空格`
+    * 三级圆点号：`2个tab + 星号* + 空格` 
+	
+- 缩进符分级
+> 层次一  
+>> 层次二
+>>> 层次三  
+>>>> 层次四
+>>>>> 层次五
+- 普通分级
+1. 数字后面加一个点，再加一个空格
+2. 数字后面加一个点，再加一个空格
+3. 数字后面加一个点，再加一个空格
+
+http://yansicing.net3v.net/head.jpg
+- 插入图片
+网络上的图片,格式：\!\[](图片URL)
+  ![](http://yansicing.net3v.net/head.jpg)  
+[]方括号里加描述，这个方括号里的描述并不会对图像显示造成任何改动 <br>
+![yansicing](http://yansicing.net3v.net/head.jpg)  
+在URL后面，加一个双引号包围的字符串，显示悬停 <br>
+![yansicing](http://yansicing.net3v.net/head.jpg " head portrait ")
+GitHub仓库里的图片，格式：\!\[](图片URL)
+URL格式：` https://github.com/ 用户名 / 项目名 / blob / 分支名 / 存放图片的文件夹 / 该文件夹下的图片`
+![github picture](https://github.com/yansicing/yansicing.github.io/blob/master/assets/res/user.png)
+
+- 给图片加上超链接，格式：文字链接格式 + 插入图片格式 即：
+\[](图片URL)
+\[](图片URL)
+(图片的超链接)
+[![yansicing](http://yansicing.net3v.net/head.jpg)](https://yansicing.github.io)
+文字悬停，第一种方式 <br>
+[![yansicing](http://yansicing.net3v.net/head.jpg "yansicing")](https://yansicing.github.io)
+文字悬停，第二种方式 <br>
+[![yansicing](http://yansicing.net3v.net/head.jpg)](http://https://yansicing.github.io "yansicing.github.io")
+
+- 插入代码片段
+需要在代码的上一行和下一行用\``` 标记，不是三个单引号，而是数字1左边，Tab键上面的键。语法高亮要在 \``` 之后加上编程语言（忽略大小写）<br>
+普通写法
+```
+Drawable drawable = ivSystem.getDrawable();//java
+```
+高亮写法
+``` java
+Drawable drawable = ivSystem.getDrawable();//java
+```
+- 锚点
+其实每一个标题都是一个锚点（移动到某个位置），比如 [回到顶部](### 目录)
+
+- 表格 （每个格短横线-要大于一个）
+|表头1  |表头2  |
+|- |-------|
+|内容1  |内容2  |
+|内容1  |内容2  |
+
+- 字体
+|语法    |效果  |
+|-------|-------|
+| \*斜体1* | *斜体1* |
+| \_斜体2_ | _斜体2_|
+| \*\*粗体1** | **粗体1** |
+| \_\_粗体2__ | __粗体2__|
+|  \~\~删除线~~ | ~~删除线~~ |
+| \*\*\*斜粗体1*** | ***斜粗体1*** |
+| \_\_\_斜粗体2___ | ___斜粗体2___ |
+| \*\*\*\~\~斜粗体删除线1~~*** | ***~~斜粗体删除线1~~*** |
+| \~\~\*\*\*斜粗体删除线2***~~ | ~~***斜粗体删除线2***~~ |
+
+reference：https://blog.csdn.net/rain_9155/article/details/82731732
 
 #### 表格 <span id="1.2">
 
