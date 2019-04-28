@@ -1,9 +1,9 @@
 ---
-title: Markdown Coursebook
+title: Markdown Tutorial
 layout: post
 categories: Language
 tags: markdown
-excerpt: markdown tutorial
+excerpt: markdown coursebook
 ---
 ---------
 
