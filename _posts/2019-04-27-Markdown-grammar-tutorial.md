@@ -3,7 +3,7 @@ title: Markdown Grammar Tutorial
 layout: post
 categories: Language
 tags: Markdown
-excerpt: markdown basic grammar tutorial
+excerpt: Markdown basic grammar tutorial
 ---
 ## Markdown简明语法教程 <span id="home">
 ---
