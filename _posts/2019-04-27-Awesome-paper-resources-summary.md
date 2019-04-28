@@ -5,6 +5,7 @@ categories: Resources
 tags: Paper Resources
 excerpt: Useful websites and resources~
 ---
+### Awesome~
 * [mlhub123-Machine learning navigation station](https://www.mlhub123.com/ )
 * [github trending](https://github.com/trending)
 * [paperswithcode](https://paperswithcode.com/sota)
@@ -28,7 +29,7 @@ excerpt: Useful websites and resources~
 * Uncertainty_Course：https://github.com/mbolic2/Uncertainty_Course
 * uncertainty：https://github.com/erikbern/uncertainty/blob/master/notebook.ipynb
 * ml-prediction-uncertainty：https://github.com/madsenmj/ml-prediction-uncertainty
-* Predicting-weather-forecast-uncertainty-with-machine-learning：https://github.com/seb1000/Predicting-weather-forecast-uncertainty-with-machine-learning
+* [Predicting-weather-forecast-uncertainty-with-machine-learning](https://github.com/seb1000/Predicting-weather-forecast-uncertainty-with-machine-learning)
 * ml_uncertainty_py：https://github.com/usnistgov/ml_uncertainty_py
 * [Robust-optimization-using-Machine-learning-for-building-Uncertainty-Sets](https://github.com/priyanka-sharma29/Robust-Optimization-using-Machine-Learning-for-building-Uncertainty-Sets)
 
@@ -101,4 +102,4 @@ excerpt: Useful websites and resources~
 * table：| 1 | 2 | 3 |  |:-:|:-:|:-:|
 * cite：[ ]( )
 * bold：### 
-* inline code block：` `
+* inline code block：`
