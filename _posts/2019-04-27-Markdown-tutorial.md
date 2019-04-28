@@ -6,7 +6,7 @@ tags: Markdown
 excerpt: markdown basic grammar tutorial
 ---
 ## Markdown简明语法教程 <span id="home">
-	
+---	
 ### 目录
 
 * **[特性介绍](#1)**
@@ -157,7 +157,7 @@ n个 \> ：层次n <br>
 
 #### 列表 <span id="1.4">
 
-**Markdown　Extra**列表语法：
+- **Markdown　Extra** 列表语法：
 项目１
 项目２
 :   定义 A
@@ -241,12 +241,13 @@ class SomeClass:
 4. **Harropad**: [官网](http://pad.haroopress.com/user.html)
 5. **Retext**: 简单强大的文本编辑器，可控制输出格式pdf, html等，仅支持Linux（推荐）[下载](https://github.com/retext-project/retext)
 
-#### 参考文献 <span id="4">
+###### 参考文献 <span id="4">
 - [knightyun](https://knightyun.github.io)
 - [Rain_9155](https://blog.csdn.net/rain_9155/article/details/82731732)
+
 ------
 
-#### **返回[顶部](#home)**
+###### **返回[顶部](#home)**
 
 ---------
 
