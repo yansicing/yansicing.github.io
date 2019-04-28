@@ -1,9 +1,9 @@
 ---
-title: Markdown简明教程
+title: Markdown Coursebook
 layout: post
-categories: 编程
+categories: Language
 tags: markdown
-excerpt: 简要markdown语法
+excerpt: markdown tutorial
 ---
 ---------
 
