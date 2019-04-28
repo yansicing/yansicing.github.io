@@ -85,10 +85,9 @@ excerpt: Useful paper related websites and resources~
 * [cheatsheets-ai](https://github.com/kailashahirwar/cheatsheets-ai )
 * [Machine-Learning-CheatSheets](https://github.com/DipakMajhi/Machine-Learning-CheatSheets)
 * [Python-introduction](https://github.com/stdntlfe/Python-introduction)
-* 
+
 ### DataSets
 * [shujujishi](http://www.shujujishi.com/)
-
 ### Tools
 * [incubator-echarts](https://github.com/apache/incubator-echarts/tree/master/extension/bmap)
 * [3d-visualization](https://oculus-3d-visualization-c5687.firebaseapp.com/dashboard#myModal)
