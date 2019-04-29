@@ -60,7 +60,7 @@ Github Pages 功能依赖于Github账号，需要在[Github官网][Github-regist
 
 ##### 配置Github Pages功能 <span id="3.2">
 
-点击刚新建的repository，进入`Settings`，重命名为：`yansicing.github.io`
+点击刚新建的`repository`，进入`Settings`，重命名为：`yansicing.github.io`
 
 #### __博客上传__ <span id="4">
 
@@ -188,6 +188,9 @@ Markdown的图片插入方式 `![title](http://xxx.com/xxx.png/)` 是无法修�
 
 __[Start your blog now~](http://yansicing.github.io)__
 
+##### 参考文献 <span id="4">
+- [KNIGH_YUN](https://blog.csdn.net/KNIGH_YUN/article/details/79774344)
+
 ----------------
 [Github]: https://baike.baidu.com/item/github/10145341
 [SVN]: https://baike.baidu.com/item/SVN/3311103?fr=aladdin
@@ -198,4 +201,4 @@ __[Start your blog now~](http://yansicing.github.io)__
 [markdown-full]: https://blog.csdn.net/KNIGH_YUN/article/details/79733814
 [markdown-tutorial]: <https://blog.csdn.net/KNIGH_YUN/article/details/79718481>
 
-##### 返回[顶部](#home)
+##### 返__回[顶部](#home)__
