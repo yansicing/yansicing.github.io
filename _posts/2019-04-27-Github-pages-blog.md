@@ -35,7 +35,7 @@ excerpt: Jekyll builds github pages personal blog website
 
 ---------------
 
-#### 引言 <span id="1">
+#### __引言 __<span id="1">
 
 ##### 关于博客 <span id="1.1">
 写博客是个比较好的习惯，而且会上瘾，总想记录点什么~，我们可以结合CSDN博客和Github Pages的独立个人博客网页
@@ -46,11 +46,11 @@ excerpt: Jekyll builds github pages personal blog website
 - [SVN]：集中式版本控制系统，Git是SVN的发展版，现在主流也是Git，但某些大公司依然在使用SVN
 - [Github Pages]：是Github上的一项功能，可以放置网页文件到指定文件夹，然后分配一个专属域名用于展示一些项目，也可用来开发个人博客网站
 
-#### 创建Github账号 <span id="2">
+#### __创建Github账号__ <span id="2">
 
 Github Pages 功能依赖于Github账号，需要在[Github官网][Github-register] 注册(sign up)
 
-#### 创建仓库 <span id="3">
+#### __创建仓库__ <span id="3">
 
 创建仓库`repository`后，可以上传文件到这个目录下，我们用这个仓库来使用Github Pages功能 
  
@@ -62,7 +62,7 @@ Github Pages 功能依赖于Github账号，需要在[Github官网][Github-regist
 
 点击刚新建的repository，进入`Settings`，重命名为：`yansicing.github.io`
 
-#### 博客上传 <span id="4">
+#### __博客上传__ <span id="4">
 
 ##### Git基础 <span id="4.1">
 - 使用`git`向github仓库上传文件，进行`提交、拉取、克隆`等操作：[Git下载地址](https://git-scm.com/)
@@ -93,7 +93,7 @@ ssh-keygen -t rsa -C "*your_email@youremail.com*"
 
 Git还能使用https协议连接，只不过要每次输入账号和密码，但是可以选择Github官方提供的`Github Desktop`软件
 
-#### 创建本地仓库 <span id="5">
+#### __创建本地仓库__ <span id="5">
 - 选择一个本地文件夹，用作保存本地仓库文件，尽量是空文件夹
 
 - 然后使用命令 `git init` 初始化文件夹，会在当前文件夹下生成`.git` 的隐藏文件夹，里面是一些配置文件，不要随意更改
@@ -118,7 +118,7 @@ Git还能使用https协议连接，只不过要每次输入账号和密码，但
 	git merge master
 ```
 
-#### 安装Jekyll <span id="6">
+#### __安装Jekyll__ <span id="6">
 
 ##### 关于Jekyll <span id="6.1">
 
@@ -144,7 +144,7 @@ Jekyll是一个简单免费的生成博客网页的工具，可以绑定Github�
 - 运行时保持窗口不要关闭，浏览器输入 `127.0.0.1:4000` 或 `localhost:4000` 预览
 - windows预览效果可能不好，加载不出图片，其他系统没试过
 
-#### 博客书写<span id="7">
+#### __博客书写__<span id="7">
 
 ##### Markdown基础 <span id="7.1">
 Jekyll使用[Markdown][markdown]语言书写博客，Markdown是一种简单易读的标记性语言
@@ -174,7 +174,7 @@ Markdown的图片插入方式 `![title](http://xxx.com/xxx.png/)` 是无法修�
 可以使用`html`中的 `<img>`标签：
 `<img src="http://xxx.com/xxx.png/" alt="title" width=XXpx height=XXpx>`
 
-#### 域名配置 <span id="8">
+#### __域名配置__ <span id="8">
 
 此时该网站不能被百度等搜索引擎搜到，百度是禁止抓取 Github Pages 内容的
 
