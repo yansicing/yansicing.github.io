@@ -244,7 +244,7 @@ class SomeClass:
 简单强大的文本编辑器，可控制输出格式pdf, html等，仅支持Linux（推荐）
 
 ##### 参考文献 <span id="4">
-- [knightyun](https://knightyun.github.io)
+- [knightyun](https://github.com/knightyun)
 - [Rain_9155](https://blog.csdn.net/rain_9155/article/details/82731732)
 
 ------

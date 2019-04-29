@@ -10,7 +10,7 @@ repository: yansicing/yansicing.github.io
 paginate: 20
 github_profile: 'https://github.com/yansicing '
 user: 'yansicing '
-user_email: 413597914@qq.com
+user_email: yansicing@gmail.com
 markdown: kramdown
 plugins:
   - jekyll-feed

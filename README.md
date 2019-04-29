@@ -64,6 +64,7 @@ The theme is available as open source under the terms of the [GPL v3 License](ht
 * [Morphtext](http://morphext.fyianlai.com/)
 
 ## References
-* [knightyun](https://knightyun.github.io/)
+* [knightyun](https://github.com/knightyun)
 * [DONGChuan_Yummy-Jekyll](https://github.com/DONGChuan/Yummy-Jekyll/)
 * [codinfox-lanyon](https://github.com/codinfox/codinfox-lanyon/)
+* [HarryHq](https://github.com/HarryHq/HarryHq.github.io)
