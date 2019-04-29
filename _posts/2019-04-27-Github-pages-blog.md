@@ -188,7 +188,7 @@ Markdown的图片插入方式 `![title](http://xxx.com/xxx.png/)` 是无法修�
 
 __[Start your blog now~](http://yansicing.github.io)__
 
-##### 参考文献 <span id="4">
+##### __参考文献__ <span id="4">
 - [KNIGH_YUN](https://blog.csdn.net/KNIGH_YUN/article/details/79774344)
 
 ----------------
