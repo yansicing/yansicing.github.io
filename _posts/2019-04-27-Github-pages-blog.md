@@ -35,7 +35,7 @@ excerpt: Jekyll builds github pages personal blog website
 
 ---------------
 
-#### __引言 __<span id="1">
+#### __引言__ <span id="1">
 
 ##### 关于博客 <span id="1.1">
 写博客是个比较好的习惯，而且会上瘾，总想记录点什么~，我们可以结合CSDN博客和Github Pages的独立个人博客网页
@@ -127,7 +127,7 @@ Jekyll是一个简单免费的生成博客网页的工具，可以绑定Github�
 - [jekyll-Chinese](https://www.jekyll.com.cn/)
 - 类似的工具：[hexo](https://hexo.io/zh-cn/)
 
->##### 上传修改后的文件到Github仓库后需要一段时间才能看到修改效果，所以可以选择安装本地Jekyll工具进行本地快速预览
+>###### 上传修改后的文件到Github仓库后需要一段时间才能看到修改效果，所以可以选择安装本地Jekyll工具进行本地快速预览
 
 ##### 安装步骤 <span id="6.2">
 
