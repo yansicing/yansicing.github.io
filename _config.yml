@@ -12,6 +12,15 @@ github_profile: 'https://github.com/yansicing '
 user: 'yansicing '
 user_email: yansicing@gmail.com
 markdown: kramdown
+
+# SNS settings
+RSS: false
+weibo_username:     yanqincy
+zhihu_username:     yansicing
+github_username:    yansicing
+facebook_username:  yansicing
+jianshu_username:   yansicing
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
