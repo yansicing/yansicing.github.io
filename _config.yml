@@ -1,8 +1,7 @@
 # Created by Jekyll Writer
 title: yansicing
 description: >
-  jekyll based Github Pages Personal blog website ~ Learning, Summarizing,
-  Sharing and Promoting
+  jekyll based Github Pages Personal blog website ~ Just do IT
 baseurl: ''
 url: 'https://yansicing.github.io'
 permalink: '/:year/:month/:day/:title'
