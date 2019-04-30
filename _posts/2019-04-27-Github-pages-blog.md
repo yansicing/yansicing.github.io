@@ -38,7 +38,17 @@ excerpt: Jekyll builds github pages personal blog website
 #### __引言__ <span id="1">
 
 ##### 关于博客 <span id="1.1">
-写博客是个比较好的习惯，而且会上瘾，总想记录点什么~，我们可以结合CSDN博客和Github Pages的独立个人博客网页
+写博客是个比较好的习惯，你可以`分享心得、发表看法、记录笔记`···
+
+人类除了`衣食住行`以外，还有几样重要的东西：`爱心`与`知识`···
+
+`开源`是一种态度，`分享`是一种精神、一种情怀!
+
+**开源领域重要人物**
+- `理查德·马修·斯托曼`（Richard Matthew Stallman, 1953~）——自由软件运动，创立GNU, FSF, GPL 
+- `林纳斯·本纳第克特·托瓦兹`（Linus Benedict Torvalds, 1969~ ）——创造Linux，Git
+
+我们可以结合`CSDN博客`和`Github Pages`的独立个人博客网页进行博客写作
 
 ##### 关于Github Pages<span id="1.2">
 
