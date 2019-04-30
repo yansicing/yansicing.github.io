@@ -166,7 +166,7 @@ Jekyll官方提供了博客编辑器[jekyllwriter](http://jekyllwriter.com)，�
 
 - 安装后主界面：
 
-![jekyll-writer.jpg](http://yansicing.net3v.net/jekyll-writer.jpg)
+![jekyll-writer.jpg](http://yansicing.net3v.net/gitpage/jekyll-writer.jpg)
 
 - 安装后需要`添加账号，配置 token，生成token，粘贴进输入框`
 - 写完后保存并上传

@@ -71,7 +71,7 @@ __Continually update···__
 
 > * 万变不离其宗
 > * 小不忍则乱大谋
-> * 
+> 
 
 
 ##### 思想（Thought）

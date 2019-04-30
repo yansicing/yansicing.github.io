@@ -126,13 +126,13 @@ n个 \> ：层次n <br>
 - __格式一__：简单
  
 ``` markdown
- ![head](http://yansicing.net3v.net/head.jpg)
+ ![head](http://yansicing.net3v.net/gitpage/head.jpg)
 ```
 
 - __格式二__：(可设置图片尺寸)
 
 ``` html
-<img src="http://yansicing.net3v.net/head.jpg" alt="download-failed" width="100px"  height="100px">
+<img src="http://yansicing.net3v.net/gitpage/head.jpg" alt="download-failed" width="100px"  height="100px">
 ```
 
 - __插入图片__<br> 
@@ -142,20 +142,20 @@ n个 \> ：层次n <br>
 >> ![github picture](https://github.com/yansicing/yansicing.github.io/raw/master/assets/res/logo.png)<br>
 
 >> 网络上图片格式：\!\[](图片URL)<br> 
-![yansicing](http://yansicing.net3v.net/head.jpg) <br>
+![yansicing](http://yansicing.net3v.net/gitpage/head.jpg) <br>
 
 >> 在URL后面，加双引号包围的字符串，显示悬停： <br>
->> ![yansicing](http://yansicing.net3v.net/head.jpg " head portrait ")<br>
+>> ![yansicing](http://yansicing.net3v.net/gitpage/head.jpg " head portrait ")<br>
 
 >> 图片加超链接格式：文字链接格式 + 插入图片格式 即：
 >> \[\!\[](图片URL) \](图片的超链接)<br>
->> [![yansicing](http://yansicing.net3v.net/head.jpg)](https://yansicing.github.io)<br>
+>> [![yansicing](http://yansicing.net3v.net/gitpage/head.jpg)](https://yansicing.github.io)<br>
 
 >> 文字悬停，第一种方式： <br>
-[![yansicing](http://yansicing.net3v.net/head.jpg "yansicing")](https://yansicing.github.io)<br>
+[![yansicing](http://yansicing.net3v.net/gitpage/head.jpg "yansicing")](https://yansicing.github.io)<br>
 
 >> 文字悬停，第二种方式： <br>
-[![yansicing](http://yansicing.net3v.net/head.jpg)](http://https://yansicing.github.io "yansicing.github.io")<br>
+[![yansicing](http://yansicing.net3v.net/gitpage/head.jpg)](http://https://yansicing.github.io "yansicing.github.io")<br>
 
 #### 列表 <span id="1.4">
 
