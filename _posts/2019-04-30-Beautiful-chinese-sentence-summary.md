@@ -4,7 +4,7 @@ layout: post
 categories: Literature
 tags: Interesting
 
-excerpt: Poems for Children
+excerpt: Poems of Children
 ---
 #### 孩子们的小诗 <span id="home">
 ---
