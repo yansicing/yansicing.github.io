@@ -16,7 +16,7 @@ __Continually update···__
 > -  `yan`：yang (surname )
 > -  `si`：silicon (computer)
 > -  `c`：carbon (human)
-> - `ing`：(dynamic random process)
+> - `ing`：dynamic(random process)
 
 ---
 
