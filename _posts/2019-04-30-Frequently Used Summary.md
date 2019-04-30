@@ -1,6 +1,16 @@
 ---
 title: Frequently Used Summary
 layout: post
+categories: Summary
+tags: Personal Summary
+
+excerpt: Computer phone and others summary
+---
+#### 电脑手机等常用总结 <span id="home">
+---
+
+__Continually update···__
+
 ---
 > **yansicing origin introduction**
 > -  `yan`：yang (surname )
@@ -99,3 +109,13 @@ layout: post
 >  - 思考
 >  - 数码
 >  - ···
+
+---
+
+> 待完善（To be added~）
+
+---
+
+##### **返回[顶部](#home)**
+
+----
