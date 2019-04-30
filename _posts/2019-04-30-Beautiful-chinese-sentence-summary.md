@@ -3,10 +3,15 @@ title: Beautiful Sentence Summary
 layout: post
 categories: Literature
 tags: Interesting
+
+excerpt: Poems for Children
 ---
+#### 孩子们的小诗 <span id="home">
+---
+
 __Continually update···__
-***
-### 孩子们的小诗（Poems for Children）
+
+---
 
 * 《灯》
 
@@ -306,7 +311,20 @@ __Continually update···__
 ```
 
 
-### 思考（Philosophy）
+##### 思考（Philosophy）
 
 
-### 有趣（Interesting）
+##### 有趣（Interesting）
+
+---
+
+> 待完善（To be added~）
+
+---
+##### 参考文献 <span id="4">
+- [知乎-寻子陌](https://www.zhihu.com/question/36539555)
+
+
+##### **返回[顶部](#home)**
+
+-----

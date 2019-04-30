@@ -3,6 +3,7 @@ title: Markdown Grammar Tutorial
 layout: post
 categories: Language
 tags: Markdown
+
 excerpt: Markdown basic grammar tutorial
 ---
 ### Markdown简明语法教程 <span id="home">
@@ -243,15 +244,16 @@ class SomeClass:
 5. **[Retext-Download](https://github.com/retext-project/retext)**
 简单强大的文本编辑器，可控制输出格式pdf, html等，仅支持Linux（推荐）
 
+---
+
 ##### 参考文献 <span id="4">
 - [knightyun](https://github.com/knightyun)
 - [Rain_9155](https://blog.csdn.net/rain_9155/article/details/82731732)
 
-------
 
 ##### **返回[顶部](#home)**
 
----------
+-----
 
 [1]: http://math.stackexchange.com/
 [2]: https://github.com/jmcmanus/pagedown-extra "Pagedown Extra"
