@@ -18,6 +18,7 @@ __Continually update···__
 > -  `c`：carbon (human)
 > - `ing`：(dynamic random process)
 ---
+
 ### 电脑（Computer）
 
 ##### 电脑常用
