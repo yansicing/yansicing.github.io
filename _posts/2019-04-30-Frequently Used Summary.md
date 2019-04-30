@@ -17,6 +17,7 @@ __Continually update···__
 > -  `si`：silicon (computer)
 > -  `c`：carbon (human)
 > - `ing`：(dynamic random process)
+
 ---
 
 ### 电脑（Computer）
