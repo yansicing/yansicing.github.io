@@ -10,7 +10,7 @@ excerpt: Postgraduate and undergraduate courses
 
 ---
 #### **软件工程**
-**研究生重要课程**
+**研究生课程**
 
 **研一**
 * 组合优化理论
