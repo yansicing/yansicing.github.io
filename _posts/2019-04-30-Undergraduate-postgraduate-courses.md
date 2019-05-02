@@ -95,7 +95,7 @@ excerpt: Postgraduate and undergraduate courses
     思想道德修养与法律基础
     高等数学AI(一）
     形势与政策
-    程序设计基础
+    C程序设计基础
     军事理论
     大学英语A(一）
     职业发展教育与就业指导（一）
@@ -114,7 +114,7 @@ excerpt: Postgraduate and undergraduate courses
     形势与政策（二）
     音乐鉴赏
     计算机程序设计漫谈
-    数字文化(网）
+    数学文化(网）
     中国近现代史纲要
     形势与政策（三）
     数据结构与算法
@@ -133,11 +133,11 @@ excerpt: Postgraduate and undergraduate courses
     数字逻辑与数字系统
     形势与政策（四）
     毛泽东思想和中国特色社会主义理论体系概论（一）
-    职业发展教育与勃:业指导（二）
+    职业发展教育与就业指导（二）
     体育(四）
     大学英语A(四）
     数字逻辑与数字系统课程设计
-    面向对象程序设计
+    面向对象程序设计C++
     操作系统原理
     物联网通信技术
     物联网工程导论
@@ -156,7 +156,7 @@ excerpt: Postgraduate and undergraduate courses
     RFID原理及应用
     传感器原理及应用
     物联网感知综合课程设计
-    JAVA程序设计
+    Java程序设计
     物联网前沿技术
     汇编语言与接口技术
     软件工程
