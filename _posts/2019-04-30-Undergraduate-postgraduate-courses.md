@@ -8,11 +8,14 @@ excerpt: Postgraduate and undergraduate courses
 ---
 ### 研究生及本科课程清单 <span id="home">
 
+[Postgraduate-Curriculum-UESTC](https://github.com/yansicing/Postgraduate-Curriculum-UESTC)
+
 ---
-#### **软件工程**
+
+#### **软件工程（Software Engineering）**
 **研究生课程**
 
-**研一**
+**研一(10 courses)**
 * 组合优化理论
 * 随机过程与排队论
 * 硕士研究生学位英语
@@ -25,7 +28,7 @@ excerpt: Postgraduate and undergraduate courses
 * 体育技能、欣赏与文化
 
 ---
-**研二**
+**研二(10 courses)**
 * 软件架构模型与设计
 * 网络计算模式
 * 高级计算机结构
@@ -38,7 +41,13 @@ excerpt: Postgraduate and undergraduate courses
 * 逆向工程
 
 ---
-#### **物联网工程**
+**额外**
+* 稳定性及其应用
+* 算法分析与设计
+* 矩阵理论
+---
+
+#### **物联网工程（Internet of Things）**
 
 **本科重要课程**
 
