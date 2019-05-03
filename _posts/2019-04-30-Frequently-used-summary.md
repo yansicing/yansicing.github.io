@@ -34,12 +34,12 @@ __Continually update···__
 > * 购物：[taobao](https://www.taobao.com/)，[jingdong](https://www.jd.com)，[dangdang](http://book.dangdang.com)，[xiaomi](https://list.mi.com/)，[apple](https://www.apple.com/cn/)，[10010](https://uac.10010.com/)
 
 ##### 工作职业（软件）
-> * 编辑：[WPS](https://www.wps.cn/)，[NotePad++](https://notepad-plus-plus.org/)，[Sublime Text](http://www.sublimetext.com/3)，[Typora](https://www.typora.io/)
+> * 编辑：[WPS](https://www.wps.cn/)，[NotePad++](https://notepad-plus-plus.org/)，[Sublime Text](http://www.sublimetext.com/3)，[Typora](https://www.typora.io/)，[XMind](https://www.xmind.cn/)
 > * 博客：[QQ](https://im.qq.com/)，[Github Desktop](https://github.com/yansicing/yansicing.github.io)，[jekyllwriter](http://jekyllwriter.com)
 > * 搜索：[Chrome](https://www.google.cn/chrome/)，[Everything](https://www.voidtools.com/zh-cn/)
 > * 截图：[FSCapture](https://faststone-capture.en.softonic.com/)，[Snipaste](https://www.snipaste.com/)，
-> * 工具：[haozip](http://haozip.2345.cc/)，[Baidu-disk](https://pan.baidu.com)，[PanDownload](https://github.com/BigLight-H/PanDownload)，[CopyTranslator](https://github.com/CopyTranslator/CopyTranslator)，[TeamViwer](https://down.aaui.net/TeamViewer.htm)
-> * 编程：[Dev-C++](https://bloodshed-dev-c.en.softonic.com/)，[Eclipse](https://www.eclipse.org/downloads/)，[VMware Workstation Pro](https://www.vmware.com/cn.html)
+> * 工具：[haozip](http://haozip.2345.cc/)，[Baidu-disk](https://pan.baidu.com)，[PanDownload](https://github.com/BigLight-H/PanDownload)，[CopyTranslator](https://github.com/CopyTranslator/CopyTranslator)，[youdao](http://cidian.youdao.com/)，[TeamViwer](https://down.aaui.net/TeamViewer.htm)
+> * 编程：[Dev-C++](https://bloodshed-dev-c.en.softonic.com/)，[Eclipse](https://www.eclipse.org/downloads/)，[Visual Studio Code](https://code.visualstudio.com/)，[VMware Workstation Pro](https://www.vmware.com/cn.html)
 > * 视频：[PotPlayer](https://potplayer.en.softonic.com/)
 > * 传输：[Xshell](https://xshell.en.softonic.com/)，[WinSCP](https://winscp.net/eng/docs/lang:chs)
 > * 电脑：[drivergenius](http://www.drivergenius.com/)，[Kingsoft Antivirus](http://www.ijinshan.com/)
@@ -89,6 +89,7 @@ __Continually update···__
 > * [Nvidia driver](https://www.nvidia.cn/Download/index.aspx?lang=cn)
 > * [TensorFlow](https://github.com/mind/wheels/releases/)
 > * [Jupyter Notebook](https://jupyter.org/)
+> * [MortonWang_summary-of-installation-methods-and-software-sharing](https://github.com/https://github.com/MortonWang/summary-of-installation-methods-and-software-sharing)
 
 ---
 ### 书籍（Book）
