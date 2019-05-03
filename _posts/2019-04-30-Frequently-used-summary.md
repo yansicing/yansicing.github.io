@@ -89,7 +89,10 @@ __Continually update···__
 > * [Nvidia driver](https://www.nvidia.cn/Download/index.aspx?lang=cn)
 > * [TensorFlow](https://github.com/mind/wheels/releases/)
 > * [Jupyter Notebook](https://jupyter.org/)
+
 > * [MortonWang_summary-of-installation-methods-and-software-sharing](https://github.com/MortonWang/summary-of-installation-methods-and-software-sharing)
+> * [Xovee_simplified-chinese-translation-of-neural-networks-and-deep-learning](https://github.com/Xovee/simplified-chinese-translation-of-neural-networks-and-deep-learning)
+> * [xovee_Calendar](https://blog.csdn.net/xovee/article/details/87901642)
 
 ---
 ### 书籍（Book）
