@@ -28,21 +28,48 @@ __Continually update···__
 > * 视频：[Bilibili](https://www.bilibili.com/)， [YouTube](https://www.youtube.com/)，[iqiyi](https://www.iqiyi.com/)，[Tencent](https://v.qq.com/)，[youku](https://www.youku.com/)
 > * 资源：[BaiduNetdisk](https://pan.baidu.com)，[Github](https://github.com/yansicing/)， [QQ-mail](https://mail.qq.com)， [163-mail](https://email.163.com)，[Gmail](https://myaccount.google.com/)，[VPN](https://github.com/getlantern/lantern)
 > * 音乐：[Netease cloud music](https://music.163.com/)，[QQ music](https://y.qq.com/)
-> * 搜索：[Chrome](https://www.google.cn/chrome/)， [Google](https://www.google.com/)
+> * 搜索：[Google](https://www.google.com/)，[weixin-sogou](https://weixin.sogou.com/)
 > * 论文：[DPLP](https://dblp.uni-trier.de/)， [paperswithcode](https://paperswithcode.com/) 
 > * 问答：[Wikipedia](https://zh.wikipedia.org/)， [Quora](https://www.quora.com/)， [Stack Overflow](https://stackoverflow.com/)
-> * 工具：[Teamviwer](https://down.aaui.net/TeamViewer.htm)，[NotePad++](https://notepad-plus-plus.org/)，[Everything](https://www.voidtools.com/zh-cn/)，[FSCapture](https://faststone-capture.en.softonic.com/)，[Snipaste](https://www.snipaste.com/)，[CopyTranslator](https://github.com/CopyTranslator/CopyTranslator)，[Github Desktop](https://github.com/yansicing/yansicing.github.io)，[jekyllwriter](http://jekyllwriter.com)
 > * 购物：[taobao](https://www.taobao.com/)，[jingdong](https://www.jd.com)，[dangdang](http://book.dangdang.com)，[xiaomi](https://list.mi.com/)，[apple](https://www.apple.com/cn/)，[10010](https://uac.10010.com/)
 
 ##### 本科课程（基础）
+> * [Undergraduate-courses](https://yansicing.github.io/2019/04/30/Undergraduate-postgraduate-courses)
 
 ##### 研究生课程（资料）
+> * [Postgraduate-courses](https://yansicing.github.io/2019/04/30/Undergraduate-postgraduate-courses)
+> * [Postgraduate-Curriculum-UESTC](https://github.com/yansicing/Postgraduate-Curriculum-UESTC)
 
 ##### 科研管理（工具）
+> * [Tsinghua mirror](https://mirrors.tuna.tsinghua.edu.cn/)
+> * [Chrome](https://www.google.cn/intl/zh-CN/chrome/)
+> * [TeamViwer](https://down.aaui.net/TeamViewer.htm)
+> * [PyCharm](http://www.jetbrains.com/pycharm/)
+> * [Mendeley](https://www.mendeley.com)
+> * [TeXstudio](http://texstudio.sourceforge.net/)
+> * [Mathpix](https://mathpix.com/)
+> * [JabRef](http://www.jabref.org/)
+> * [HDFView](https://hdf-viewer.winsite.com/)
+> * [Anaconda](https://www.anaconda.com/)
+> * [Nvidia driver](https://www.nvidia.cn/Download/index.aspx?lang=cn)
+> * [TensorFlow](https://github.com/mind/wheels/releases/)
+> * [Jupyter Notebook](https://jupyter.org/)
 
-##### 工作职业（搜索）
+##### 工作职业（软件）
+> * 编辑：[WPS](https://www.wps.cn/)，[NotePad++](https://notepad-plus-plus.org/)，[Sublime Text](http://www.sublimetext.com/3)，[Typora](https://www.typora.io/)
+> * 博客：[QQ](https://im.qq.com/)，[Github Desktop](https://github.com/yansicing/yansicing.github.io)，[jekyllwriter](http://jekyllwriter.com)
+> * 搜索：[Chrome](https://www.google.cn/chrome/)，[Everything](https://www.voidtools.com/zh-cn/)
+> * 截图：[FSCapture](https://faststone-capture.en.softonic.com/)，[Snipaste](https://www.snipaste.com/)，
+> * 工具：[haozip](http://haozip.2345.cc/)，[Baidu-disk](https://pan.baidu.com)，[PanDownload](https://github.com/BigLight-H/PanDownload)，[CopyTranslator](https://github.com/CopyTranslator/CopyTranslator)，[TeamViwer](https://down.aaui.net/TeamViewer.htm)
+> * 编程：[Dev-C++](https://bloodshed-dev-c.en.softonic.com/)，[Eclipse](https://www.eclipse.org/downloads/)，[VMware Workstation Pro](https://www.vmware.com/cn.html)
+> * 视频：[PotPlayer](https://potplayer.en.softonic.com/)
+> * 传输：[Xshell](https://xshell.en.softonic.com/)，[WinSCP](https://winscp.net/eng/docs/lang:chs)
+> * 电脑：[drivergenius](http://www.drivergenius.com/)，[Kingsoft Antivirus](http://www.ijinshan.com/)
 
 ##### 生活娱乐（博主）
+> * [720yun](https://720yun.com/)
+> * [bigpixel](http://www.bigpixel.cn/)
+> * [kejiao.cctv](http://kejiao.cctv.com/)
 
 ---
 ### 手机（Phone）
