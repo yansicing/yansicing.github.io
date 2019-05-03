@@ -89,7 +89,7 @@ __Continually update···__
 > * [Nvidia driver](https://www.nvidia.cn/Download/index.aspx?lang=cn)
 > * [TensorFlow](https://github.com/mind/wheels/releases/)
 > * [Jupyter Notebook](https://jupyter.org/)
-> * [MortonWang_summary-of-installation-methods-and-software-sharing](https://github.com/https://github.com/MortonWang/summary-of-installation-methods-and-software-sharing)
+> * [MortonWang_summary-of-installation-methods-and-software-sharing](https://github.com/MortonWang/summary-of-installation-methods-and-software-sharing)
 
 ---
 ### 书籍（Book）
