@@ -3,8 +3,8 @@ title: Blog  Writing Template
 layout: post
 categories: Blog
 tags: Blog Writing Template
----
 excerpt: Blog writing format template
+
 ---
 #### 博客写作格式模板 <span id="home">
 ---
