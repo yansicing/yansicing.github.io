@@ -31,7 +31,7 @@ __Continually update···__
 > * 搜索：[Chrome](https://www.google.cn/chrome/)， [Google](https://www.google.com/)
 > * 论文：[DPLP](https://dblp.uni-trier.de/)， [paperswithcode](https://paperswithcode.com/) 
 > * 问答：[Wikipedia](https://zh.wikipedia.org/)， [Quora](https://www.quora.com/)， [Stack Overflow](https://stackoverflow.com/)
-> * 工具：[Teamviwer](https://down.aaui.net/TeamViewer.htm)，[NotePad++](https://notepad-plus-plus.org/)
+> * 工具：[Teamviwer](https://down.aaui.net/TeamViewer.htm)，[NotePad++](https://notepad-plus-plus.org/)，[Everything](https://www.voidtools.com/zh-cn/)，[FSCapture](https://faststone-capture.en.softonic.com/)，[Snipaste](https://www.snipaste.com/)，[CopyTranslator](https://github.com/CopyTranslator/CopyTranslator)，[Github Desktop](https://github.com/yansicing/yansicing.github.io)，[jekyllwriter](http://jekyllwriter.com)
 > * 购物：[taobao](https://www.taobao.com/)，[jingdong](https://www.jd.com)，[dangdang](http://book.dangdang.com)，[xiaomi](https://list.mi.com/)，[apple](https://www.apple.com/cn/)，[10010](https://uac.10010.com/)
 
 ##### 本科课程（基础）
