@@ -6,6 +6,7 @@ tags: Paper Resources
 excerpt: Useful paper related websites and resources~
 ---
 ### Awesome~
+* [awesomelists](https://awesomelists.top/)
 * [mlhub123-Machine learning navigation station](https://www.mlhub123.com/ )
 * [github trending](https://github.com/trending)
 * [paperswithcode](https://paperswithcode.com/sota)
