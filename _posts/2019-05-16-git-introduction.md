@@ -14,14 +14,12 @@ __持续更新（updating···）__
 ---
 #### Git命令
 
-|常用 |命令|
+|**常用** |**命令**|
 |---|---|
 |添加到暂存区| git add|
 |提交到版本库| git commit|
 |提交到远程库 | git push|
-
-|辅助	|命令|
-|---|---|
+|**辅助**	|**命令**|
 |初始化仓库|	git init|
 |克隆代码	|git clone|
 |比较差异	|git diff|
@@ -67,11 +65,9 @@ __持续更新（updating···）__
 > `git reset --hard HEAD^`<br>
 > `git reset --hard HEAD^^`<br>
 > `git reset --hard HEAD~100 `
-
 > 2.回退到特定版本：<br>
 > `git reflog`<br>
 > `git reset --hard 版本号`
-
 > 3.丢弃（撤销）工作区文件`readme.txt`的修改：<br>
 > `git checkout -- readme.txt`
 
@@ -81,11 +77,13 @@ __持续更新（updating···）__
 
 ----
 #### 远程仓库-提交代码到Github
+
 * 创建SSH Key
 > `ssh-keygen -t rsa –C "youremail@example.com"`<br>
-
 > `登录Github---Settings---SSH and GPG Keys---New SSH Key---Title---Key---粘贴id_rsa.pub文件内容---Add SSH Key`
+
 * 测试连接：`git -T git@github.com`
+
 ##### 1. 先有本地库，后有远程库
 * 在Github上创建远程仓库：`yang`（空）
 * 将已有的本地仓库`yang`（非空）与之关联
