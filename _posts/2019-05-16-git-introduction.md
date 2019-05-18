@@ -13,7 +13,8 @@ __持续更新（updating···）__
 
 ---
 #### Git命令
-|常用|命令|
+
+|常用 |命令|
 |---|---|
 |添加到暂存区| git add|
 |提交到版本库| git commit|
@@ -62,7 +63,7 @@ __持续更新（updating···）__
 > `git log --pretty=oneline `
 
 * 撤销修改
->  1.版本回退：<br>
+> 1.版本回退：<br>
 > `git reset --hard HEAD^`<br>
 > `git reset --hard HEAD^^`<br>
 > `git reset --hard HEAD~100 `
@@ -71,7 +72,8 @@ __持续更新（updating···）__
 > `git reflog`<br>
 > `git reset --hard 版本号`
 
-> 3.丢弃（撤销）工作区文件`readme.txt`的修改：`git checkout -- readme.txt`
+> 3.丢弃（撤销）工作区文件`readme.txt`的修改：<br>
+> `git checkout -- readme.txt`
 
 * 删除文件
 > `rm readme.txt`<br>
@@ -141,13 +143,6 @@ VS Code 集成了Git功能，并支持基本的git命令，这使得我们能够
 - [Pro Git book](https://git-scm.com/book/zh/v2)
 - [Git的详细使用教程——三部曲](https://blog.csdn.net/oman001/article/details/80208632)
 - [Git使用教程,最详细，最傻瓜，最浅显，真正手把手教](https://blog.csdn.net/qq_36150631/article/details/81038485)
-- [Git的详细使用教程——三部曲](https://blog.csdn.net/oman001/article/details/80208632)
-
-
-
-
-
-
 
 
 ---
