@@ -49,6 +49,7 @@ ubuntu  ALL=(ALL:ALL) ALL
 - adduser username
 - sudo gedit /etc/sudoers
 - yang  ALL=(ALL:ALL) ALL 
+
 ---
 
 #### 修改root密码
@@ -105,6 +106,7 @@ GRUB_CMDLINE_LINUX_DEFAULT=”quiet splash”改成GRUB_CMDLINE_LINUX_DEFAULT=�
     export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH  
     export LD_LIBRARY_PATH=/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
 ```
+
 #### 4.安装 CUDA 9.1
 - sudo apt-get install freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libgl1-mesa-glx libglu1-mesa libglu1-mesa-dev  
 
@@ -205,7 +207,7 @@ GRUB_CMDLINE_LINUX_DEFAULT=”quiet splash”改成GRUB_CMDLINE_LINUX_DEFAULT=�
 - import tensorflow as tf
 > tf.\__version__
 > tf.\__path__
-> 
+
 ---
 #### 完全卸载tensorflow
 
@@ -261,6 +263,7 @@ https://www.teamviewer.com/zhcn/download/linux/
 - sudo apt-get -f install
 - sudo dpkg -i teamviewer_13.1.8286_amd64.deb
 - teamviewer
+
 ---
 #### Ubuntu16.04安装搜狗拼音输入法（中文输入法）
 https://www.cnblogs.com/darklights/p/7722861.html
@@ -343,14 +346,14 @@ locate 同上,不过文件名是部分匹配。
 
 ---
 
-#### 1、查看内存的插槽数，已经使用多少插槽。每条内存多大，已使用内存多大
+#### 1.查看内存的插槽数，已经使用多少插槽。每条内存多大，已使用内存多大
 >sudo dmidecode|grep -P -A5 "Memory\s+Device"|grep Size|grep -v Range
 
-#### 2、查看内存支持的最大内存容量
+#### 2.查看内存支持的最大内存容量
 
 >?sudo dmidecode|grep -P 'Maximum\s+Capacity'
 
-#### 3、查看内存的频率
+#### 3.查看内存的频率
 
 >sudo dmidecode|grep -A16 "Memory Device"
 
@@ -366,21 +369,13 @@ locate 同上,不过文件名是部分匹配。
 ##### 参考文献 <span id="4">
 
 - [Ubuntu 16.04+CUDA 9.1+cuDNN v7+OpenCV 3.4.0+Caffe+PyCharm 完全安装指南，国内最全！(适用CUDA 9.0)](https://blog.csdn.net/qq473179304/article/details/79444609)
-
 - [Ubuntu16.04 安装 CUDA9.2](https://blog.csdn.net/EliminatedAcmer/article/details/80528980)
-
 - [tensorflow 安装GPU版本，个人总结，步骤比较详细](https://blog.csdn.net/gangeqian2/article/details/79358543)
-
 - [Ubutu16.04+Cuda9.2/9.0+Cudnn7.12/7.05+TensorFlow-gpu-1.8/1.6](http://www.cnblogs.com/wjy-lulu/p/9119905.html)
-
 - [Ubuntu 16.04 + Nvidia 显卡驱动 + Cuda 8.0 （问题总结 + 解决方案）](https://blog.csdn.net/zafir_410/article/details/73188228?utm_source=itdadao&utm_medium=referral)
-
 - [Ubuntu+Tensorflow+CUDA8.0+cudnn](https://blog.csdn.net/icehui2012/article/details/62219008)
-
 - [52nlp.cn](http://www.52nlp.cn/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%BB%E6%9C%BA%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE-ubuntu16-04-geforce-gtx1080-tensorflow)
-
 - [Ubuntu + CUDA9.0 + tensorflow-gpu 安装过程](https://blog.csdn.net/qq_35976351/article/details/79325476)
-
 * [Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA](https://blog.csdn.net/hq86937375/article/details/79696023)
 * [吴恩达deeplearning课程作业环境](https://blog.csdn.net/pkrobbie/article/details/79346722)
 * [Tensorflow Ubuntu16.04上安装及CPU运行tensorboard、CNN、RNN图文教程](https://blog.csdn.net/wizen641372472/article/details/72675549)
