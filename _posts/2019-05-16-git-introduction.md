@@ -12,6 +12,10 @@ excerpt: Git with Visual Studio Code
 __持续更新（updating···）__
 
 ---
+#### Git工作流程
+
+![git-flowchart](https://github.com/yansicing/yansicing.github.io/raw/master/assets/gitpage_picture/git-flowchart.png)
+
 #### Git命令
 
 |**常用** |**命令**|
