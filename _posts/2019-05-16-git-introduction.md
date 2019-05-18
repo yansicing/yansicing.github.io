@@ -92,7 +92,6 @@ __持续更新（updating···）__
 > `git commit -m "备注信息"`<br>
 > `git remote add origin git@github.com:yansicing/yang.git`<br>
 > `git push -u origin master`<br>
-
 > `git pull origin master --allow-unrelated-histories`<br>
 * 提交：`git push origin master`
 * 拉取：`git pull origin master`
