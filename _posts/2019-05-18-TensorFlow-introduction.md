@@ -4,399 +4,353 @@ layout: post
 categories: TensorFlow
 tags: TensorFlow Ubuntu
 excerpt: TensorFlow environmental installation and configuration
-
 ---
-#### TensorFlow»·¾³°²×°ÓëÅäÖÃ <span id="home">
----
-
-__³ÖĞø¸üĞÂ£¨Continually update¡¤¡¤¡¤£©__
-
+#### TensorFlowç¯å¢ƒå®‰è£…ä¸é…ç½® <span id="home">
 ---
 
-##### ÄÚÈİ
-°²×°»·¾³£ºCUDA9.1+cuDNN7.1+Anaconda3.5+python3.6+TensorFlow1.7»·¾³°²×°ÓëÅäÖÃ
+##### å®‰è£…ç¯å¢ƒï¼šUbuntu16.04+Python3.6+TensorFlow1.7+CUDA9.1+cuDNN7.1+Anaconda3.5
 
-https://zhuanlan.zhihu.com/p/28494550
 --- 
-###ÅäÖÃUbuntu¾²Ì¬µØÖ·
+#### é…ç½®Ubuntué™æ€åœ°å€
 
->sudo gedit /etc/network/interfaces
-
+- sudo gedit /etc/network/interfaces
+```
     interfaces(5) file used by ifup(8) and ifdown(8)
-
     auto enp6s0
-
     iface enp6s0 inet static
-
     address 192.168.0.26
-
     netmask 255.255.255.0
-
     broadcast 192.168.0.255
-
     gateway 192.168.0.1
-
->sudo gedit /etc/resolv.conf
-
+```
+- sudo gedit /etc/resolv.conf
+```
     nameserver 114.114.114.114
-
->sudo /etc/init.d/networking restart
-
->sudo gedit /etc/resolvconf/resolv.conf.d/base(ÈçÎŞĞ§Ê¹ÓÃ) 
-
----
-###¹ÒÔØUÅÌ
->sudo mkdir /mnt/usb
-
->df
-
->sudo mount /dev/sda1 /mnt/usb
->cd /mnt/usb
-
->sudo umount /mnt/usb
->sudo umount /dev/sda1 /mnt/usb
-  
-###ÓÃ»§Ãûubuntu²»ÔÚsudoersÎÄ¼şÖĞ£¬´ËÊÂ½«±»±¨¸æ
->sudo gedit /etc/sudoersÌí¼Ó£º
->ubuntu  ALL=(ALL:ALL) ALL 
-
-###Ubuntu16.04 ÏÂ´´½¨ĞÂÓÃ»§yang²¢¸³ÓèsudoÈ¨ÏŞ
->adduser username
->sudo gedit /etc/sudoers
->yang  ALL=(ALL:ALL) ALL 
----
-
-###ĞŞ¸ÄrootÃÜÂë
-
->sudo passwd root
+```
+- sudo /etc/init.d/networking restart
+- sudo gedit /etc/resolvconf/resolv.conf.d/baseï¼ˆå¦‚æ— æ•ˆä½¿ç”¨ï¼‰
 
 ---
-###Ubuntu 16.04+CUDA 9.1+cuDNN v7+OpenCV 3.4.0+Caffe+PyCharm ÍêÈ«°²×°Ö¸ÄÏ£¬¹úÄÚ×îÈ«£¡(ÊÊÓÃCUDA 9.0)
-https://blog.csdn.net/qq473179304/article/details/79444609
-
-###Ubuntu16.04 °²×° CUDA9.2
-https://blog.csdn.net/EliminatedAcmer/article/details/80528980
-
-###tensorflow °²×°GPU°æ±¾£¬¸öÈË×Ü½á£¬²½Öè±È½ÏÏêÏ¸
-https://blog.csdn.net/gangeqian2/article/details/79358543
-
-###Ubutu16.04+Cuda9.2/9.0+Cudnn7.12/7.05+TensorFlow-gpu-1.8/1.6
-http://www.cnblogs.com/wjy-lulu/p/9119905.html
-
-###Ubuntu 16.04 + Nvidia ÏÔ¿¨Çı¶¯ + Cuda 8.0 £¨ÎÊÌâ×Ü½á + ½â¾ö·½°¸£©
-https://blog.csdn.net/zafir_410/article/details/73188228?utm_source=itdadao&utm_medium=referral
-
-###Ubuntu+Tensorflow+CUDA8.0+cudnn
-https://blog.csdn.net/icehui2012/article/details/62219008
-http://www.52nlp.cn/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%BB%E6%9C%BA%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE-ubuntu16-04-geforce-gtx1080-tensorflow
-
-###Ubuntu + CUDA9.0 + tensorflow-gpu °²×°¹ı³Ì
-https://blog.csdn.net/qq_35976351/article/details/79325476
-
----------
-###1.°²×°ÒÀÀµ°ü
->sudo apt-get update   
-
->sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler  
-
->sudo apt-get install --no-install-recommends libboost-all-dev  
+#### æŒ‚è½½Uç›˜
+- sudo mkdir /mnt/usb
+- df
+- sudo mount /dev/sda1 /mnt/usb
+- cd /mnt/usb
+- sudo umount /mnt/usb
+- sudo umount /dev/sda1 /mnt/usb
   
->sudo apt-get install libopenblas-dev liblapack-dev libatlas-base-dev  
-  
->sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev  
-  
->sudo apt-get install git cmake build-essential  
+#### ç”¨æˆ·åubuntuä¸åœ¨sudoersæ–‡ä»¶ä¸­ï¼Œæ­¤äº‹å°†è¢«æŠ¥å‘Š
+- sudo gedit /etc/sudoersæ·»åŠ ï¼š
+```
+ubuntu  ALL=(ALL:ALL) ALL
+```
 
-###2.°²×°ÏÔ¿¨Çı¶¯
-https://www.geforce.cn/drivers
->sudo gedit /etc/modprobe.d/blacklist-nouveau.conf 
+#### Ubuntu16.04 ä¸‹åˆ›å»ºæ–°ç”¨æˆ·yangå¹¶èµ‹äºˆsudoæƒé™
+- adduser username
+- sudo gedit /etc/sudoers
+- yang  ALL=(ALL:ALL) ALL 
+---
 
+#### ä¿®æ”¹rootå¯†ç 
+
+- sudo passwd root
+
+---
+###1.å®‰è£…ä¾èµ–åŒ…
+- sudo apt-get update   
+
+- sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler  
+
+- sudo apt-get install --no-install-recommends libboost-all-dev  
+  
+- sudo apt-get install libopenblas-dev liblapack-dev libatlas-base-dev  
+  
+- sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev  
+  
+- sudo apt-get install git cmake build-essential  
+
+#### 2.å®‰è£…æ˜¾å¡é©±åŠ¨
+[æ˜¾å¡é©±åŠ¨å®˜ç½‘](https://www.geforce.cn/drivers)
+- sudo gedit /etc/modprobe.d/blacklist-nouveau.conf 
+```
     blacklist nouveau  
     options nouveau modeset=0 
+```
+- sudo update-initramfs -u  
 
->sudo update-initramfs -u  
+- lsmod | grep nouveau  
 
->lsmod | grep nouveau  
+- sudo apt-get remove nvidia-*
+- sudo apt-get autoremove
+- sudo nvidia-uninstall
+- reboot
+- Ctrl+Alt+F1
+- sudo service lightdm stop
+- sudo bash NVIDIA-Linux-x86_64-390.48.run -no-x-check -no-nouveau-check -no-opengl-files
+- sudo service lightdm restart
+- nvidia-settings  
 
->sudo apt-get remove nvidia-*
-sudo apt-get autoremove
-sudo nvidia-uninstall
-reboot
-Ctrl+Alt+F1
-sudo service lightdm stop
-sudo bash NVIDIA-Linux-x86_64-390.48.run -no-x-check -no-nouveau-check -no-opengl-files
-sudo service lightdm restart
-
->nvidia-settings  
-
-###Ubuntu¿ª»úÎŞ·¨½øÈëÏµÍ³ÎÊÌâ£¨NVIDIAÏÔ¿¨Çı¶¯Ïà¹Ø£©
+#### Ubuntuå¼€æœºæ— æ³•è¿›å…¥ç³»ç»Ÿé—®é¢˜ï¼ˆNVIDIAæ˜¾å¡é©±åŠ¨ç›¸å…³ï¼‰
 https://blog.csdn.net/ezhchai/article/details/78788564
 https://blog.csdn.net/ezhchai/article/details/80525207
->sudo vim /etc/default/grub 
+- sudo vim /etc/default/grub 
 
-GRUB_CMDLINE_LINUX_DEFAULT=¡±quiet splash¡±¸Ä³ÉGRUB_CMDLINE_LINUX_DEFAULT=¡±quiet splash nomodeset¡±
+GRUB_CMDLINE_LINUX_DEFAULT=â€quiet splashâ€æ”¹æˆGRUB_CMDLINE_LINUX_DEFAULT=â€quiet splash nomodesetâ€
 
->sudo update-grub
+- sudo update-grub
 
-###3.ÅäÖÃ»·¾³±äÁ¿
->sudo gedit ~/.bashrc  
-
+#### 3.é…ç½®ç¯å¢ƒå˜é‡
+- sudo gedit ~/.bashrc  
+```
     export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH  
     export LD_LIBRARY_PATH=/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
+```
+#### 4.å®‰è£… CUDA 9.1
+- sudo apt-get install freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libgl1-mesa-glx libglu1-mesa libglu1-mesa-dev  
 
-###4.°²×° CUDA 9.1
->sudo apt-get install freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libgl1-mesa-glx libglu1-mesa libglu1-mesa-dev  
+- sudo sh cuda_9.1.85_387.26_linux.run --no-opengl-libs 
 
->sudo sh cuda_9.1.85_387.26_linux.run --no-opengl-libs 
-
->sudo gedit ~/.bashrc 
-
+- sudo gedit ~/.bashrc 
+```
     export PATH=/usr/local/cuda/bin:$PATH
     export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH  
+```
+- source ~/.bashrc  
 
->source ~/.bashrc  
+- cd /usr/local/cuda-9.1/samples/1_Utilities/deviceQuery  
+- sudo make  
+- ./deviceQuery  
 
->cd /usr/local/cuda-9.1/samples/1_Utilities/deviceQuery  
->sudo make  
->./deviceQuery  
+#### å®‰è£…cuDNN v7
+- cd cuda/include
+- sudo cp cudnn.h /usr/local/cuda/include/ #å¤åˆ¶å¤´æ–‡ä»¶
+- cd ../lib64
+> sudo cp lib* /usr/local/cuda/lib64/   
+> cd /usr/local/cuda/lib64/   
+> sudo rm -rf libcudnn.so libcudnn.so.7  
+> sudo ln -s libcudnn.so.7.0.5 libcudnn.so.7
+> sudo ln -s libcudnn.so.7 libcudnn.so 
 
-###°²×°cuDNN v7
->cd cuda/include
-  
-    sudo cp cudnn.h /usr/local/cuda/include/ #¸´ÖÆÍ·ÎÄ¼ş
->cd ../lib64
+- sudo apt-get install vim-gtk  
 
-    sudo cp lib* /usr/local/cuda/lib64/   
-    cd /usr/local/cuda/lib64/   
-    sudo rm -rf libcudnn.so libcudnn.so.7  
-    sudo ln -s libcudnn.so.7.0.5 libcudnn.so.7
-    sudo ln -s libcudnn.so.7 libcudnn.so 
-
->sudo apt-get install vim-gtk  
-
->sudo vim /etc/ld.so.conf.d/cuda.conf  
-
+- sudo vim /etc/ld.so.conf.d/cuda.conf  
+```
     /usr/local/cuda/lib64
-
->sudo ldconfig
-
->sudo ldconfig -v
-
->nvcc -V 
+```
+- sudo ldconfig
+- sudo ldconfig -v
+- nvcc -V 
+- 
 ----
-###Ubuntu16.04°²×°Anaconda3.5
->sudo bash  Anaconda3-5.1.0-Linux-x86_64.sh
+#### Ubuntu16.04å®‰è£…Anaconda3.5
+- sudo bash  Anaconda3-5.1.0-Linux-x86_64.sh
+- anaconda-navigator
+- sudo gedit /etc/profile
 
-    anaconda-navigator
+> sudo vim /etc/profile
+> sudo vim ~/.bashrc
 
->sudo gedit /etc/profile
+- export PATH="/home/ubuntu/anaconda3/bin:$PATH"
 
-    sudo vim /etc/profile
-    sudo vim ~/.bashrc
+- source /etc/profile
 
->export PATH="/home/ubuntu/anaconda3/bin:$PATH"
+> source ~/.bashrc
 
-> source /etc/profile
+- echo $PATH
 
-    source ~/.bashrc
+- python --version
 
-  > echo $PATH
+- conda --version
 
-    python --version
+- conda list
 
-    conda --version
+- conda info --envs
 
-    conda list
+- conda update -n base conda
 
-   > conda info --envs
+> conda update conda
 
->conda update -n base conda
+- conda create -n tensorflow36 python=3.6
 
-    conda update conda
+- conda remove -n tensorflow36 --all
 
-> conda create -n tensorflow36 python=3.6
-
-    conda remove -n tensorflow36 --all
-
->conda config --add channels 
+- conda config --add channels 
     https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
->conda config --set show_channel_urls yes
+- conda config --set show_channel_urls yes
 
->conda install numpy
+- conda install numpy
 
->source activate tensorflow36
+- source activate tensorflow36
 
-    source deactivate
+> source deactivate
 
->sudo apt install python3-pip
+- sudo apt install python3-pip
 
-    python3 -m pip install --upgrade pip --force-reinstall
+> python3 -m pip install --upgrade pip --force-reinstall
 
-> pip install \
-  -i https://pypi.tuna.tsinghua.edu.cn/simple/ \
-  https://mirrors.tuna.tsinghua.edu.cn/tensorflow/linux/gpu/
+- pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ https://mirrors.tuna.tsinghua.edu.cn/tensorflow/linux/gpu/
 
->python
-  
+- python
+ ``` 
     import tensorflow as tf
-
     hello=tf.constant('hello,Tensorflow')
-
     sess=tf.Session()
-
     print(sess.run(hello))
+```
+- pip3 install tf_nightly-1.6.0.dev20180114-cp36-cp36m-manylinux1_x86_64.whl
 
->pip3 install tf_nightly-1.6.0.dev20180114-cp36-cp36m-manylinux1_x86_64.whl
 ---
-###²é¿´ÒÑ°²×°TensorFlow°æ±¾ºÍ°²×°Â·¾¶
->python
-
->import tensorflow as tf
-
-    tf.\__version__
-    tf.\__path__
+#### æŸ¥çœ‹å·²å®‰è£…TensorFlowç‰ˆæœ¬å’Œå®‰è£…è·¯å¾„
+- python
+- import tensorflow as tf
+> tf.\__version__
+> tf.\__path__
+> 
 ---
-###ÍêÈ«Ğ¶ÔØtensorflow
-²é¿´tensorflow°æ±¾
->sudo pip show tensorflow
+#### å®Œå…¨å¸è½½tensorflow
 
-Ğ¶ÔØ£º
->sudo pip uninstall protobuf
->sudo pip uninstall tensorflow
-°²×°£º
->sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.8.0-cp27-none-linux_x86_64.whl
-###°²×°pip
->sudo apt-get install python-pip python-dev build-essential
-sudo pip install --upgrade pip
-sudo -H python -m pip install --upgrade pip
+æŸ¥çœ‹tensorflowç‰ˆæœ¬
+- sudo pip show tensorflow
 
-    ÎÊÌâ£ºÊ¹ÓÃpip³öÏÖ
+å¸è½½ï¼š
+- sudo pip uninstall protobuf
+- sudo pip uninstall tensorflow
+å®‰è£…ï¼š
+- sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.8.0-cp27-none-linux_x86_64.whl
+###å®‰è£…pip
+- sudo apt-get install python-pip python-dev build-essential
+- sudo pip install --upgrade pip
+- sudo -H python -m pip install --upgrade pip
+
+    é—®é¢˜ï¼šä½¿ç”¨pipå‡ºç°
     Traceback (most recent call last):
     File "/usr/bin/pip3", line 9, in <module>
     from pip import main
     ImportError: cannot import name 'main'
->sudo python -m pip uninstall pip && sudo apt install python-pip --reinstall
+- sudo python -m pip uninstall pip && sudo apt install python-pip --reinstall
 
-    ÔÚubuntuÖĞÊ¹ÓÃpip±¨Ò»ÏÂ´íÎó: 
+    åœ¨ubuntuä¸­ä½¿ç”¨pipæŠ¥ä¸€ä¸‹é”™è¯¯: 
     /usr/bin/pip: No such file or directory pip can no longer be found:
 
-¿ÉÒÔ²ÉÓÃÒÔÏÂ·½Ê½½â¾ö
->which pip 
->pip 
->type pip 
->hash -r 
+å¯ä»¥é‡‡ç”¨ä»¥ä¸‹æ–¹å¼è§£å†³
+- which pip 
+- pip 
+- type pip 
+- hash -r 
 
-###AnacondaµÄjupyter notebookÖĞÅäÖÃtensorflow
-(½â¾öImportError : No Moduled Name "tensorflow)
->ÔÚ/home/ubuntu/anaconda3/lib/python3.6/site-packages
+#### Anacondaçš„jupyter notebookä¸­é…ç½®tensorflow
+(è§£å†³ImportError : No Moduled Name "tensorflow)
+- åœ¨/home/ubuntu/anaconda3/lib/python3.6/site-packages
 
-    ĞÂ½¨path.pth,Ìí¼Ó£º
->/home/ubuntu/anaconda3/envs/tensorflow36/lib/python3.6/site-packages
+    æ–°å»ºpath.pth,æ·»åŠ ï¼š
+- /home/ubuntu/anaconda3/envs/tensorflow36/lib/python3.6/site-packages
 
-###jupyter notebookÏÂpython2ºÍpython3¹²´æ
+#### jupyter notebookä¸‹python2å’Œpython3å…±å­˜
 https://www.cnblogs.com/pertor/p/8728291.html
- Èç¹û°²×°ÁËpython2ºÍÕßpython3£º
->python2 -m pip install ipykernel
->python2 -m ipykernel install --user
+ å¦‚æœå®‰è£…äº†python2å’Œè€…python3ï¼š
+- python2 -m pip install ipykernel
+- python2 -m ipykernel install --user
 
->python3 -m pip install ipykernel
->python3 -m ipykernel install --user 
-###Ubuntu16.04°²×°Teamviewer
+- python3 -m pip install ipykernel
+- python3 -m ipykernel install --user 
+- 
+#### Ubuntu16.04å®‰è£…Teamviewer
 
 https://www.teamviewer.com/zhcn/download/linux/
 
->sudo apt-get -f install
->sudo dpkg -i teamviewer_13.1.8286_amd64.deb
->teamviewer
+- sudo apt-get -f install
+- sudo dpkg -i teamviewer_13.1.8286_amd64.deb
+- teamviewer
 ---
-### Ubuntu16.04°²×°ËÑ¹·Æ´ÒôÊäÈë·¨£¨ÖĞÎÄÊäÈë·¨£©
+#### Ubuntu16.04å®‰è£…æœç‹—æ‹¼éŸ³è¾“å…¥æ³•ï¼ˆä¸­æ–‡è¾“å…¥æ³•ï¼‰
 https://www.cnblogs.com/darklights/p/7722861.html
-###Ubuntu 16.04°²×°¹È¸è Chrome ä¯ÀÀÆ÷
+
+#### Ubuntu 16.04å®‰è£…è°·æ­Œ Chrome æµè§ˆå™¨
 https://blog.csdn.net/wql2014302721/article/details/78571362
 
 ---
 
-###Ubuntu16.04°²×°pycharm
+###Ubuntu16.04å®‰è£…pycharm
 https://blog.csdn.net/yucicheung/article/details/79336258
 
 http://www.jetbrains.com/pycharm/download/#section=linux
 
-sh ./pycharm.sh #ÔÚ½âÑ¹ËõÎÄ¼şÄ¿Â¼µÄbin/ÏÂÖ´ĞĞ
+sh ./pycharm.sh #åœ¨è§£å‹ç¼©æ–‡ä»¶ç›®å½•çš„bin/ä¸‹æ‰§è¡Œ
 
 ---
-###Ubuntu 16.04 ÓÃ»§µÇÂ¼½çÃæËÀÑ­»·ÎÊÌâµÄ½â¾ö
-    ·½·¨1£º
->CTRL+ALT+F1½øÈëÎÄ±¾Ä£Ê½
-> sudo apt-get remove nvidia-*
-> sudo apt-get autoremove
-> sudo nvidia-uninstall
->reboot
->Ctrl+Alt+F1
->sudo service lightdm stop
->sudo bash NVIDIA-Linux-x86_64-390.48.run -no-x-check -no-nouveau-check -no-opengl-files
+#### Ubuntu 16.04 ç”¨æˆ·ç™»å½•ç•Œé¢æ­»å¾ªç¯é—®é¢˜çš„è§£å†³
+    æ–¹æ³•1ï¼š
+- CTRL+ALT+F1è¿›å…¥æ–‡æœ¬æ¨¡å¼
+- sudo apt-get remove nvidia-*
+- sudo apt-get autoremove
+- sudo nvidia-uninstall
+- reboot
+- Ctrl+Alt+F1
+- sudo service lightdm stop
+- sudo bash NVIDIA-Linux-x86_64-390.48.run -no-x-check -no-nouveau-check -no-opengl-files
 
 https://blog.csdn.net/miclover_feng/article/details/79201865
 
-    ·½·¨2£º
->sudo add-apt-repository ppa:graphics-drivers/ppa
->sudo apt-get update
-> sudo apt-get remove --purge nvidia-*
->sudo apt-get autoremove #ÌØ±ğÖØÒª
->sudo apt-get install -f #ÌØ±ğÖØÒª
->sudo reboot
->sudo apt-get install nvidia-384
+    æ–¹æ³•2ï¼š
+- sudo add-apt-repository ppa:graphics-drivers/ppa
+- sudo apt-get update
+- sudo apt-get remove --purge nvidia-*
+- sudo apt-get autoremove #ç‰¹åˆ«é‡è¦
+- sudo apt-get install -f #ç‰¹åˆ«é‡è¦
+- sudo reboot
+- sudo apt-get install nvidia-384
 
 https://www.jianshu.com/p/d45434f28ca0 
 
 ---
-### ubuntuÖØ×°ÏµÍ³
-ÎÊÌâ£ºnouveau 000:01:00.0: fifo: SCHED_ERROR 08
-  1. BIOSÑ¡ÔñÆô¶¯Ïîµ½UÅÌ£¬»ªË¶Ö÷°åµçÄÔÆô¶¯µçÄÔ£¬°´F8½øÈë¡£
-ÏÔÊ¾Install Ubuntu£¬ÏÈ²»Òªµãinstall UbuntuÕâ¸öÑ¡Ïî¡£°´F6£¬ÔÙ
-°´e¼ü£¬½øÈë±à¼­Ò³Ãæ£¬ÔÚµ¹ÊıµÚ¶şĞĞÖĞ£¬ro quiet splashºóÃæÌí¼Ónomodeset£¬ÕâÑù½øÈëÏµÍ³ºó²»»áÒòÎª¶ÀÏÔÇı¶¯ÎÊÌâ¶øµ¼ÖÂºÚÆÁÁË¡£
-   2. ÖØÆô£¬¿ñ°´ESC£¬½øÈëµ½grub£¬°´e£¬½øÈë±à¼­¡£µ¼ÊıµÚ¶şĞĞÕÒµ½quiet splash£¬ ½«quiet splash $vt_handoff¸ÄÎªquiet splash nomodeset£¬ctrl+xÖØÆô¡£
+#### ubuntué‡è£…ç³»ç»Ÿ
+é—®é¢˜ï¼šnouveau 000:01:00.0: fifo: SCHED_ERROR 08
+  1. BIOSé€‰æ‹©å¯åŠ¨é¡¹åˆ°Uç›˜ï¼Œåç¡•ä¸»æ¿ç”µè„‘å¯åŠ¨ç”µè„‘ï¼ŒæŒ‰F8è¿›å…¥ã€‚
+æ˜¾ç¤ºInstall Ubuntuï¼Œå…ˆä¸è¦ç‚¹install Ubuntuè¿™ä¸ªé€‰é¡¹ã€‚æŒ‰F6ï¼Œå†
+æŒ‰eé”®ï¼Œè¿›å…¥ç¼–è¾‘é¡µé¢ï¼Œåœ¨å€’æ•°ç¬¬äºŒè¡Œä¸­ï¼Œro quiet splashåé¢æ·»åŠ nomodesetï¼Œè¿™æ ·è¿›å…¥ç³»ç»Ÿåä¸ä¼šå› ä¸ºç‹¬æ˜¾é©±åŠ¨é—®é¢˜è€Œå¯¼è‡´é»‘å±äº†ã€‚
+   2. é‡å¯ï¼Œç‹‚æŒ‰ESCï¼Œè¿›å…¥åˆ°grubï¼ŒæŒ‰eï¼Œè¿›å…¥ç¼–è¾‘ã€‚å¯¼æ•°ç¬¬äºŒè¡Œæ‰¾åˆ°quiet splashï¼Œ å°†quiet splash $vt_handoffæ”¹ä¸ºquiet splash nomodesetï¼Œctrl+xé‡å¯ã€‚
 
-###²é¿´ÏÔ¿¨Çı¶¯
+#### æŸ¥çœ‹æ˜¾å¡é©±åŠ¨
 
->lshw -c video
+- lshw -c video
 
-²é¿´configurureÓĞdriver×ÖÑù
+æŸ¥çœ‹configurureæœ‰driverå­—æ ·
 
->nvidia-smi
+- nvidia-smi
 
 ----
 
-###²é¿´GPUĞÍºÅ
+#### æŸ¥çœ‹GPUå‹å·
 
 >lspci | grep -i vga
 
 ---
 
-###²é¿´NVIDIAÇı¶¯°æ±¾
+#### æŸ¥çœ‹NVIDIAé©±åŠ¨ç‰ˆæœ¬
 
 >sudo dpkg --list | grep nvidia-*
 
-###²é¿´´ÅÅÌ¿Õ¼ä
+#### æŸ¥çœ‹ç£ç›˜ç©ºé—´
 >sudo fdisk -l
 
 >df -h
 
-###ubuntuµÄwhich¡¢find¡¢whereis¡¢locateÃüÁî
->which Ö»ÄÜÑ°ÕÒ¿ÉÖ´ĞĞÎÄ¼ş £¬²¢ÔÚPATH±äÁ¿ÀïÃæÑ°ÕÒ¡£
-find ÊÇÖ±½ÓÔÚÓ²ÅÌÉÏËÑÑ°£¬¹¦ÄÜÇ¿´ó£¬µ«ºÄÓ²ÅÌ£¬Ò»°ã²»ÒªÓÃ¡£
-whereis ´ÓlinuxÎÄ¼şÊı¾İ¿â£¨/var/lib/slocate/slocate.db£©Ñ°ÕÒ£¬ËùÒÔÓĞ¿ÉÄÜÕÒµ½¸Õ¸ÕÉ¾³ı£¬»òÕßÃ»ÓĞ·¢ÏÖĞÂ½¨µÄÎÄ¼ş£¬È«²¿Æ¥Åä¡£
-locate Í¬ÉÏ,²»¹ıÎÄ¼şÃûÊÇ²¿·ÖÆ¥Åä¡£
+#### ubuntuçš„whichã€findã€whereisã€locateå‘½ä»¤
+>which åªèƒ½å¯»æ‰¾å¯æ‰§è¡Œæ–‡ä»¶ ï¼Œå¹¶åœ¨PATHå˜é‡é‡Œé¢å¯»æ‰¾ã€‚
+find æ˜¯ç›´æ¥åœ¨ç¡¬ç›˜ä¸Šæœå¯»ï¼ŒåŠŸèƒ½å¼ºå¤§ï¼Œä½†è€—ç¡¬ç›˜ï¼Œä¸€èˆ¬ä¸è¦ç”¨ã€‚
+whereis ä»linuxæ–‡ä»¶æ•°æ®åº“ï¼ˆ/var/lib/slocate/slocate.dbï¼‰å¯»æ‰¾ï¼Œæ‰€ä»¥æœ‰å¯èƒ½æ‰¾åˆ°åˆšåˆšåˆ é™¤ï¼Œæˆ–è€…æ²¡æœ‰å‘ç°æ–°å»ºçš„æ–‡ä»¶ï¼Œå…¨éƒ¨åŒ¹é…ã€‚
+locate åŒä¸Š,ä¸è¿‡æ–‡ä»¶åæ˜¯éƒ¨åˆ†åŒ¹é…ã€‚
 
 ---
 
-### 1¡¢²é¿´ÄÚ´æµÄ²å²ÛÊı£¬ÒÑ¾­Ê¹ÓÃ¶àÉÙ²å²Û¡£Ã¿ÌõÄÚ´æ¶à´ó£¬ÒÑÊ¹ÓÃÄÚ´æ¶à´ó
+#### 1ã€æŸ¥çœ‹å†…å­˜çš„æ’æ§½æ•°ï¼Œå·²ç»ä½¿ç”¨å¤šå°‘æ’æ§½ã€‚æ¯æ¡å†…å­˜å¤šå¤§ï¼Œå·²ä½¿ç”¨å†…å­˜å¤šå¤§
 >sudo dmidecode|grep -P -A5 "Memory\s+Device"|grep Size|grep -v Range
 
-### 2¡¢²é¿´ÄÚ´æÖ§³ÖµÄ×î´óÄÚ´æÈİÁ¿
+#### 2ã€æŸ¥çœ‹å†…å­˜æ”¯æŒçš„æœ€å¤§å†…å­˜å®¹é‡
 
 >?sudo dmidecode|grep -P 'Maximum\s+Capacity'
 
-### 3¡¢²é¿´ÄÚ´æµÄÆµÂÊ
+#### 3ã€æŸ¥çœ‹å†…å­˜çš„é¢‘ç‡
 
 >sudo dmidecode|grep -A16 "Memory Device"
 
@@ -404,17 +358,33 @@ locate Í¬ÉÏ,²»¹ıÎÄ¼şÃûÊÇ²¿·ÖÆ¥Åä¡£
 
 ---
 
-> ´ıÍêÉÆ£¨To be added~£©
+> å¾…å®Œå–„ï¼ˆTo be added~ï¼‰
 
 ---
 
 
-##### ²Î¿¼ÎÄÏ× <span id="4">
+##### å‚è€ƒæ–‡çŒ® <span id="4">
+
+- [Ubuntu 16.04+CUDA 9.1+cuDNN v7+OpenCV 3.4.0+Caffe+PyCharm å®Œå…¨å®‰è£…æŒ‡å—ï¼Œå›½å†…æœ€å…¨ï¼(é€‚ç”¨CUDA 9.0)](https://blog.csdn.net/qq473179304/article/details/79444609)
+
+- [Ubuntu16.04 å®‰è£… CUDA9.2](https://blog.csdn.net/EliminatedAcmer/article/details/80528980)
+
+- [tensorflow å®‰è£…GPUç‰ˆæœ¬ï¼Œä¸ªäººæ€»ç»“ï¼Œæ­¥éª¤æ¯”è¾ƒè¯¦ç»†](https://blog.csdn.net/gangeqian2/article/details/79358543)
+
+- [Ubutu16.04+Cuda9.2/9.0+Cudnn7.12/7.05+TensorFlow-gpu-1.8/1.6](http://www.cnblogs.com/wjy-lulu/p/9119905.html)
+
+- [Ubuntu 16.04 + Nvidia æ˜¾å¡é©±åŠ¨ + Cuda 8.0 ï¼ˆé—®é¢˜æ€»ç»“ + è§£å†³æ–¹æ¡ˆï¼‰](https://blog.csdn.net/zafir_410/article/details/73188228?utm_source=itdadao&utm_medium=referral)
+
+- [Ubuntu+Tensorflow+CUDA8.0+cudnn](https://blog.csdn.net/icehui2012/article/details/62219008)
+
+- [52nlp.cn](http://www.52nlp.cn/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%BB%E6%9C%BA%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE-ubuntu16-04-geforce-gtx1080-tensorflow)
+
+- [Ubuntu + CUDA9.0 + tensorflow-gpu å®‰è£…è¿‡ç¨‹](https://blog.csdn.net/qq_35976351/article/details/79325476)
+
 * [Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA](https://blog.csdn.net/hq86937375/article/details/79696023)
-* [Îâ¶÷´ïdeeplearning¿Î³Ì×÷Òµ»·¾³](https://blog.csdn.net/pkrobbie/article/details/79346722)
-* [Tensorflow Ubuntu16.04ÉÏ°²×°¼°CPUÔËĞĞtensorboard¡¢CNN¡¢RNNÍ¼ÎÄ½Ì³Ì](https://blog.csdn.net/wizen641372472/article/details/72675549)
-* [Win10 ÏÂ°²×°Ubuntu 16.04Ë«ÏµÍ³Ïê½â](https://blog.csdn.net/cqfdcw/article/details/79522509)
-
-
+* [å´æ©è¾¾deeplearningè¯¾ç¨‹ä½œä¸šç¯å¢ƒ](https://blog.csdn.net/pkrobbie/article/details/79346722)
+* [Tensorflow Ubuntu16.04ä¸Šå®‰è£…åŠCPUè¿è¡Œtensorboardã€CNNã€RNNå›¾æ–‡æ•™ç¨‹](https://blog.csdn.net/wizen641372472/article/details/72675549)
+* [Win10 ä¸‹å®‰è£…Ubuntu 16.04åŒç³»ç»Ÿè¯¦è§£](https://blog.csdn.net/cqfdcw/article/details/79522509)
+* [TensorFlow ç®€æ˜å®‰è£…æ•™ç¨‹](https://zhuanlan.zhihu.com/p/28494550)
 ---
-##### **·µ»Ø[¶¥²¿](#home)**
+##### **è¿”å›[é¡¶éƒ¨](#home)**
