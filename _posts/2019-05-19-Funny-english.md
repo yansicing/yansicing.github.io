@@ -13,7 +13,7 @@ __持续更新（Continually update···）__
 
 ---
 
-##### 1 I think `that that that that that` girl wrote on the blackboard is LOVE！ 
+##### 1 I think **that that that that that** girl wrote on the blackboard is LOVE！ 
 
 - **翻译**：我认为那个女孩儿写在黑板上的那个“that”代表的是“爱”！
 - **主干**：I think that-3 is LOVE！
