@@ -217,24 +217,24 @@ ImportError : No Moduled Name "tensorflow
 - nvidia-smi
 
 ##### 查看GPU型号
-- lspci /| grep -i vga
+- lspci \| grep -i vga
 
 ##### 查看NVIDIA驱动版本
-- sudo dpkg --list /| grep nvidia-*
+- sudo dpkg --list \| grep nvidia-*
 
 ##### 查看磁盘空间
 - sudo fdisk -l
 - df -h
 
 ##### 1.查看内存的插槽数，已经使用多少插槽。每条内存多大，已使用内存多大
-- sudo dmidecode/|grep -P -A5 "Memory\s+Device"/|grep Size/|grep -v Range
+- sudo dmidecode \| grep -P -A5 "Memory\s+Device" \| grep Size \| grep -v Range
 
 ##### 2.查看内存支持的最大内存容量
-- sudo dmidecode/|grep -P 'Maximum\s+Capacity'
+- sudo dmidecode \| grep -P 'Maximum\s+Capacity'
 
 ##### 3.查看内存的频率
-- sudo dmidecode/|grep -A16 "Memory Device"
-- sudo dmidecode/|grep -A16 "Memory Device"/|grep 'Speed'
+- sudo dmidecode \| grep -A16 "Memory Device"
+- sudo dmidecode \| grep -A16 "Memory Device" \| grep 'Speed'
 
 ---
 ##### which、find、whereis、locate命令
