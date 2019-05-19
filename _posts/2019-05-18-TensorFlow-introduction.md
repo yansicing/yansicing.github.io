@@ -202,7 +202,7 @@ ImportError : No Moduled Name "tensorflow
 [pycharm下载地址](http://www.jetbrains.com/pycharm/download/#section=linux)
 - sh ./pycharm.sh # 在解压缩文件目录的bin/下执行
 
-##### Ubuntu16.04安装Teamviewer(https://www.cnblogs.com/wmr95/p/7574615.html)
+##### [Ubuntu16.04安装Teamviewer](https://www.cnblogs.com/wmr95/p/7574615.html)
 [Teamviewer下载地址](https://www.teamviewer.com/zhcn/download/linux/)
 - sudo apt-get -f install
 - sudo dpkg -i teamviewer_13.1.8286_amd64.deb
