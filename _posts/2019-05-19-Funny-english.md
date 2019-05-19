@@ -26,11 +26,15 @@ __持续更新（Continually update···）__
 ```
 - **注意**：这个句子充满娱乐精神,但没有用武之地,对交流无益，一般不会没事找事为难自己，不过对于理解英语语法可能有些许作用哈；
 如果想表达相同语意,可以改写为：
-> I think the that which the girl wrote on the blackboard is LOVE！
+```
+ I think the that which the girl wrote on the blackboard is LOVE！
+```
 
-1. 限定词the 代替 指示代词 that
-2. 连接代词which 代替 连接代词 that
-3. 宾语从句连接词that 可省略
+```
+1. 限定词`the`代替指示代词`that`
+2. 连接代词`which`代替连接代词`that`
+3. 宾语从句连接词`that`可省略
+```
 
 ##### 2. I know that you know that I know.
 
