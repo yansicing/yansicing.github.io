@@ -7,7 +7,7 @@ excerpt: TensorFlow environmental installation and configuration
 ---
 #### TensorFlow环境安装与配置 <span id="home">
 ---
-##### 安装环境
+##### 环境
 - Ubuntu16.04+Python3.6+TensorFlow1.7+CUDA9.1+cuDNN7.1+Anaconda3.5
 
 --- 
@@ -31,8 +31,10 @@ excerpt: TensorFlow environmental installation and configuration
 ```
     nameserver 114.114.114.114
 ```
+
 ---
 ### TensorFlow环境安装与配置
+
 ##### 1.安装依赖包
 - sudo apt-get update   
 - sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler  
@@ -200,7 +202,7 @@ ImportError : No Moduled Name "tensorflow
 [pycharm下载地址](http://www.jetbrains.com/pycharm/download/#section=linux)
 - sh ./pycharm.sh # 在解压缩文件目录的bin/下执行
 
-##### Ubuntu16.04安装Teamviewer
+##### Ubuntu16.04安装Teamviewer(https://www.cnblogs.com/wmr95/p/7574615.html)
 [Teamviewer下载地址](https://www.teamviewer.com/zhcn/download/linux/)
 - sudo apt-get -f install
 - sudo dpkg -i teamviewer_13.1.8286_amd64.deb
@@ -215,24 +217,24 @@ ImportError : No Moduled Name "tensorflow
 - nvidia-smi
 
 ##### 查看GPU型号
-- lspci | grep -i vga
+- lspci /| grep -i vga
 
 ##### 查看NVIDIA驱动版本
-- sudo dpkg --list | grep nvidia-*
+- sudo dpkg --list /| grep nvidia-*
 
 ##### 查看磁盘空间
 - sudo fdisk -l
 - df -h
 
 ##### 1.查看内存的插槽数，已经使用多少插槽。每条内存多大，已使用内存多大
-- sudo dmidecode|grep -P -A5 "Memory\s+Device"|grep Size|grep -v Range
+- sudo dmidecode/|grep -P -A5 "Memory\s+Device"/|grep Size/|grep -v Range
 
 ##### 2.查看内存支持的最大内存容量
-- sudo dmidecode|grep -P 'Maximum\s+Capacity'
+- sudo dmidecode/|grep -P 'Maximum\s+Capacity'
 
 ##### 3.查看内存的频率
-- sudo dmidecode|grep -A16 "Memory Device"
-- sudo dmidecode|grep -A16 "Memory Device"|grep 'Speed'
+- sudo dmidecode/|grep -A16 "Memory Device"
+- sudo dmidecode/|grep -A16 "Memory Device"/|grep 'Speed'
 
 ---
 ##### which、find、whereis、locate命令
