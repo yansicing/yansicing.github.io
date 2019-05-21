@@ -157,6 +157,12 @@ n个 \> ：层次n <br>
 > 文字悬停，第二种方式： <br>
 [![yansicing](http://yansicing.net3v.net/gitpage/head.jpg)](http://https://yansicing.github.io "yansicing.github.io")<br>
 
+> 设置图片大小
+
+* <img src="" width=""/>
+
+* <div align="center"> <img src="" width=""/> </div><br> ，图片居中显示
+
 #### 列表 <span id="1.4">
 
 - **Markdown　Extra** 列表语法：

@@ -130,6 +130,23 @@ VS Code 集成了Git功能，并支持基本的git命令，这使得我们能够
 ##### 3. 克隆远程仓库
 * 在工作目录克隆远程代码仓库，然后用Visual Studio Code 打开
 
+#### 为别人的开源项目贡献代码
+
+Contributing
+1.Fork it!
+2.Create your feature branch: git checkout -b my-new-feature
+3.Commit your changes: git commit -am 'Add some feature'
+4.Push to the branch: git push origin my-new-feature
+5.Submit a pull request
+
+* 先点击 A 的项目仓库站点的`fork`的按钮
+* 然后把你这个 fork 过来的仓库代码 Clone 检出
+* 对该项目代码修改后，提交你的修改
+* push到你的远程仓库
+* 最后通过内建的`pull request`机制向项目负责人申请代码合并
+* A 觉得你修改的代码写的很好，同意之后，你修改的代码就能合并到该项目
+
+
 ---
 
 > 待完善（To be added~）
@@ -145,6 +162,12 @@ VS Code 集成了Git功能，并支持基本的git命令，这使得我们能够
 - [Pro Git book](https://git-scm.com/book/zh/v2)
 - [Git的详细使用教程——三部曲](https://blog.csdn.net/oman001/article/details/80208632)
 - [Git使用教程,最详细，最傻瓜，最浅显，真正手把手教](https://blog.csdn.net/qq_36150631/article/details/81038485)
+- [Git学习记录](https://strivebo.com/2019/02/12/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%20-%20%EF%BC%88%E4%B8%80%EF%BC%89Git%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95(%E4%B8%8D%E6%96%AD%E6%9B%B4%E6%96%B0)/)
+- [GitHub支持的Markdown之文档写作指南](https://strivebo.com/2019/02/13/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%20-%20GitHub%E6%94%AF%E6%8C%81%E7%9A%84Markdown%E4%B9%8B%E6%96%87%E6%A1%A3%E5%86%99%E4%BD%9C%E6%8C%87%E5%8D%97/)
+- []()
+- []()
+
+
 
 
 ---
