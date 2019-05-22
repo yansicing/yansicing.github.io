@@ -29,12 +29,13 @@ __Continually update···__
 > * 资源：[BaiduNetdisk](https://pan.baidu.com)，[Github](https://github.com/yansicing/)， [QQ-mail](https://mail.qq.com)， [163-mail](https://email.163.com)，[Gmail](https://myaccount.google.com/)，[VPN](https://github.com/getlantern/lantern)
 > * 音乐：[Netease cloud music](https://music.163.com/)，[QQ music](https://y.qq.com/)
 > * 搜索：[Google](https://www.google.com/)，[weixin-sogou](https://weixin.sogou.com/)
-> * 论文：[DPLP](https://dblp.uni-trier.de/)， [paperswithcode](https://paperswithcode.com/) 
+> * 论文：[DPLP](https://dblp.uni-trier.de/)，[Mendeley](https://www.mendeley.com)，[paperswithcode](https://paperswithcode.com/) 
 > * 问答：[Wikipedia](https://zh.wikipedia.org/)， [Quora](https://www.quora.com/)， [Stack Overflow](https://stackoverflow.com/)
 > * 购物：[taobao](https://www.taobao.com/)，[jingdong](https://www.jd.com)，[dangdang](http://book.dangdang.com)，[xiaomi](https://list.mi.com/)，[apple](https://www.apple.com/cn/)，[10010](https://uac.10010.com/)
 
 ##### 工作职业（软件）
-> * 编辑：[WPS](https://www.wps.cn/)，[NotePad++](https://notepad-plus-plus.org/)，[Sublime Text](http://www.sublimetext.com/3)，[Typora](https://www.typora.io/)，[XMind](https://www.xmind.cn/)
+> * 重要：[无界1902](http://wujieliulan.com/)，[Everything](https://www.voidtools.com/zh-cn/)，[PanDownload](https://github.com/BigLight-H/PanDownload)，[FSCapture](https://faststone-capture.en.softonic.com/)，[Snipaste](https://www.snipaste.com/)，[Github Desktop](https://github.com/yansicing/yansicing.github.io)，[jekyllwriter](http://jekyllwriter.com)，[CopyTranslator](https://github.com/CopyTranslator/CopyTranslator)，[Visual Studio Code](https://code.visualstudio.com/)，[Mendeley](https://www.mendeley.com)，[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html)
+> * 编辑：[WPS](https://www.wps.cn/)，[NotePad++](https://notepad-plus-plus.org/)，[Sublime Text](http://www.sublimetext.com/3)，[Typora](https://www.typora.io/)，[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html)，[XMind](https://www.xmind.cn/)
 > * 博客：[QQ](https://im.qq.com/)，[Github Desktop](https://github.com/yansicing/yansicing.github.io)，[jekyllwriter](http://jekyllwriter.com)
 > * 搜索：[Chrome](https://www.google.cn/chrome/)，[Everything](https://www.voidtools.com/zh-cn/)
 > * 截图：[FSCapture](https://faststone-capture.en.softonic.com/)，[Snipaste](https://www.snipaste.com/)，
