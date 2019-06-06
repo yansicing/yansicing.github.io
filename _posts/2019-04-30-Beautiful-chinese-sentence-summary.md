@@ -12,6 +12,13 @@ excerpt: Poems of Children
 __Continually update···__
 
 ---
+* 《爱如盐》
+
+```
+少了盐 你或许暂时死不了
+
+但是生活从此无味
+```
 
 * 《灯》
 

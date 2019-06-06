@@ -132,11 +132,11 @@ VS Code 集成了Git功能，并支持基本的git命令，这使得我们能够
 
 #### 为别人的开源项目贡献代码
 
-Contributing
-1.Fork it!
-2.Create your feature branch: git checkout -b my-new-feature
-3.Commit your changes: git commit -am 'Add some feature'
-4.Push to the branch: git push origin my-new-feature
++ Contributing<br>
+1.Fork it!<br>
+2.Create your feature branch: git checkout -b my-new-feature<br>
+3.Commit your changes: git commit -am 'Add some feature'<br>
+4.Push to the branch: git push origin my-new-feature<br>
 5.Submit a pull request
 
 * 先点击 A 的项目仓库站点的`fork`的按钮
