@@ -1,3 +1,4 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/yansicing/postgraduate-curriculum-uestc.svg)
 # MatJek
 
 A responsive [Material](https://material.io/) theme based on [Materialize.css](http://materializecss.com/) for jekyll sites.
