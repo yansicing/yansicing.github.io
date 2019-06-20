@@ -35,11 +35,11 @@ __Continually update···__
 
 ##### 工作职业（软件）
 > * 重要：[无界1902](http://wujieliulan.com/)，[Everything](https://www.voidtools.com/zh-cn/)，[PanDownload](https://github.com/BigLight-H/PanDownload)，[FSCapture](https://faststone-capture.en.softonic.com/)，[Snipaste](https://www.snipaste.com/)，[Github Desktop](https://github.com/yansicing/yansicing.github.io)，[jekyllwriter](http://jekyllwriter.com)，[CopyTranslator](https://github.com/CopyTranslator/CopyTranslator)，[Visual Studio Code](https://code.visualstudio.com/)，[Mendeley](https://www.mendeley.com)，[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html)
-> * 编辑：[WPS](https://www.wps.cn/)，[NotePad++](https://notepad-plus-plus.org/)，[Sublime Text](http://www.sublimetext.com/3)，[Typora](https://www.typora.io/)，[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html)，[XMind](https://www.xmind.cn/)
+> * 编辑：[WPS](https://www.wps.cn/)，[NotePad++](https://notepad-plus-plus.org/)，[Sublime Text](http://www.sublimetext.com/3)，[Typora](https://www.typora.io/)，[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html)，[PDFelement](http://magnet.chongbuluo.com/)，[XMind](https://www.xmind.cn/)，[XMind.Pro7](https://www.xiaobaipan.com/file-25943573.html)
 > * 博客：[QQ](https://im.qq.com/)，[Github Desktop](https://github.com/yansicing/yansicing.github.io)，[jekyllwriter](http://jekyllwriter.com)
 > * 搜索：[Chrome](https://www.google.cn/chrome/)，[Everything](https://www.voidtools.com/zh-cn/)
-> * 截图：[FSCapture](https://faststone-capture.en.softonic.com/)，[Snipaste](https://www.snipaste.com/)，
-> * 工具：[haozip](http://haozip.2345.cc/)，[Baidu-disk](https://pan.baidu.com)，[PanDownload](https://github.com/BigLight-H/PanDownload)，[CopyTranslator](https://github.com/CopyTranslator/CopyTranslator)，[youdao](http://cidian.youdao.com/)，[TeamViwer](https://down.aaui.net/TeamViewer.htm)
+> * 截图：[FSCapture](https://faststone-capture.en.softonic.com/)，[Snipaste](https://www.snipaste.com/)，[Honeyview](http://www.bandisoft.com/honeyview/)
+> * 工具：[haozip](http://haozip.2345.cc/)，[Baidu-disk](https://pan.baidu.com)，[PanDownload](https://github.com/BigLight-H/PanDownload)，[CopyTranslator](https://github.com/CopyTranslator/CopyTranslator)，[youdao](http://cidian.youdao.com/)，[TeamViwer](https://down.aaui.net/TeamViewer.htm)，[天若OCR文字识别](https://www.xiaobaipan.com/file-25875759.html)，[ilovepdf](https://www.ilovepdf.com/)，[冰点文库下载器](https://www.xiaobaipan.com/file-25706419.html)
 > * 编程：[Dev-C++](https://bloodshed-dev-c.en.softonic.com/)，[Eclipse](https://www.eclipse.org/downloads/)，[Visual Studio Code](https://code.visualstudio.com/)，[VMware Workstation Pro](https://www.vmware.com/cn.html)
 > * 视频：[PotPlayer](https://potplayer.en.softonic.com/)
 > * 传输：[Xshell](https://xshell.en.softonic.com/)，[WinSCP](https://winscp.net/eng/docs/lang:chs)
