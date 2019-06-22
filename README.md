@@ -71,3 +71,4 @@ The theme is available as open source under the terms of the [GPL v3 License](ht
 * [HarryHq](https://github.com/HarryHq/HarryHq.github.io)
 * [ShengYg](https://github.com/ShengYg)
 * [iissnan](https://github.com/iissnan)
+* [simon96.online](https://www.simon96.online/2018/10/12/hexo-tutorial/)
