@@ -27,11 +27,11 @@ $\LaTeX$ 的数学公式有两种：行中公式和独立公式。行中公式�
 
 行中公式可以用如下方法表示：
 
-​        \$ 数学公式 \​$
+​        \$ 数学公式 ​$
 
 独立公式可以用如下方法表示：
 
-​        \$\$ 数学公式 \​$\$
+​        \$$ 数学公式 $$
 
 自动编号的公式可以用如下方法表示：
     若需要手动编号，参见 [大括号和行标的使用](#14大括号和行标的使用) 
@@ -59,12 +59,13 @@ $$ J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \Gamma (m + \alpha + 1)} {\l
 
 - 例子：
 ```
-在公式 \eqref{eq:sample} 中，我们看到了这个被自动编号的公式。
-
+$$在公式 \eqref{eq:sample} 中，我们看到了这个被自动编号的公式。$$
+$$
 \begin{equation}
 E=mc^2 \text{，自动编号公式示例}
 \label{eq:Sample}
 \end{equation}
+$$
 ```
 
 - 显示：
@@ -1373,8 +1374,9 @@ Use `\,`, to insert a thin space before differentials; without this $\TeX$ will 
 - [Markdown 常用公式编辑](https://blog.csdn.net/lihaoweicsdn/article/details/83895143)
 - [Cmd Markdown 简明语法手册](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown) 
 - [Cmd Markdown 高阶语法手册](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-高阶语法手册)
+- [让GitHub Page支持Latex公式](https://zhuanlan.zhihu.com/p/36302775)
+- [关于 Markdown 的一些奇技淫巧](https://zhuanlan.zhihu.com/p/28987530)
 
-- []()
 
 ---
 ##### 返回[顶部](#home)
