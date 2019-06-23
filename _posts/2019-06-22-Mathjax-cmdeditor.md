@@ -26,15 +26,15 @@ excerpt: Cmd Markdown Formula instruction manual
 $\LaTeX$ 的数学公式有两种：行中公式和独立公式。行中公式放在文中与其它文字混编，独立公式单独成行。
 
 行中公式可以用如下方法表示：
-
-​        \$ 数学公式 ​$
-
+```
+$ 数学公式 ​$
+```
 独立公式可以用如下方法表示：
-
-​        \$$ 数学公式 $$
-
+```
+$$ 数学公式 $$
+```
 自动编号的公式可以用如下方法表示：
-    若需要手动编号，参见 [大括号和行标的使用](#14大括号和行标的使用) 
+&emsp;若需要手动编号，参见 [大括号和行标的使用](#14大括号和行标的使用) 
 
 ```markdown
 \begin{equation}
@@ -67,7 +67,6 @@ E=mc^2 \text{，自动编号公式示例}
 \end{equation}
 $$
 ```
-
 - 显示：
 
 $$在公式 \eqref{eq:sample} 中，我们看到了这个被自动编号的公式。​$$
@@ -104,6 +103,7 @@ $$ \sideset{^1_2}{^3_4}\bigotimes $$
 `()`、`[]` 和 `|` 表示符号本身，使用 `\{\}` 来表示 `{}` 。当要显示大号的括号或分隔符时，要用 `\left` 和 `\right` 命令。
 
 一些特殊的括号：
+
 |输入|显示|输入|显示|
 |:--:|:--:|:--:|:--:|
 |\langle|$\langle$|\rangle|$\rangle$|
@@ -113,7 +113,6 @@ $$ \sideset{^1_2}{^3_4}\bigotimes $$
 
 
 - 例子：
-
 ```
 $$ f(x,y,z) = 3y^2z \left( 3+\frac{7x+5}{1+y^2} \right) $$
 ```
@@ -125,13 +124,13 @@ $$ f(x,y,z) = 3y^2z \left( 3+\frac{7x+5}{1+y^2} \right) $$
 ```
 $$ \left. \frac{rm du}{dx} \right| _{x=0} $$
 ```
-- 显示：$$ \left. \frac{du}{dx} \right| _{x=0} $$
+- 显示：$$ \left. \frac{du}{dx} \right \mid _{x=0} $$
 
 #### 4．如何输入分数
 
-通常使用 `\frac {分子} {分母}` 命令产生一个分数，分数可嵌套。
-便捷情况可直接输入 `\frac ab` 来快速生成一个 $\frac ab$ 。
-如果分式很复杂，亦可使用 `分子 \over 分母` 命令，此时分数仅有一层。
+- 通常使用 `\frac {分子} {分母}` 命令产生一个分数，分数可嵌套。
+- 便捷情况可直接输入 `\frac ab` 来快速生成一个 $\frac ab$ 。
+- 如果分式很复杂，亦可使用 `分子 \over 分母` 命令，此时分数仅有一层。
 
 - 例子：
 ```
@@ -332,6 +331,7 @@ $$\sum_{i=1}^n \frac{1}{i^2} \quad and \quad \prod_{i=1}^n \frac{1}{i^2} \quad a
 ##### (9)．箭头符号
 
 - 推荐使用符号：
+
 |输入|显示|输入|显示|输入|显示|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |\to|$\to$|\mapsto|$\mapsto$|
@@ -339,6 +339,7 @@ $$\sum_{i=1}^n \frac{1}{i^2} \quad and \quad \prod_{i=1}^n \frac{1}{i^2} \quad a
 
 
 - 其它可用符号：
+
 |输入|显示|输入|显示|
 |:--:|:--:|:--:|:--:|
 |\uparrow|$\uparrow$|\Uparrow|$\Uparrow$|
@@ -385,8 +386,10 @@ $$\sum_{i=1}^n \frac{1}{i^2} \quad and \quad \prod_{i=1}^n \frac{1}{i^2} \quad a
   \int_0^1 x^2 dx & \int_0^1 x^2 \,{\rm d}x
   \end{array}
   $$
-  注意比较两个式子间 $dx$ 与 ${\rm d} x$ 的不同。
-  使用 `\operatorname` 命令也可以达到相同的效果，详见 [定义新的符号 \operatorname](#1定义新的符号-operatorname) 。
+  
+注意比较两个式子间 $dx$ 与 ${\rm d} x$ 的不同。
+
+使用 `\operatorname` 命令也可以达到相同的效果，详见 [定义新的符号 \operatorname](#1定义新的符号-operatorname) 。
 
 #### 14．大括号和行标的使用
 
@@ -716,6 +719,7 @@ $ \begin{Vmatrix} 1 & 2 \\ 3 & 4 \\ \end{Vmatrix} $
 ```
 
 - 显示：
+
 |matrix|pmatrix|bmatrix|Bmatrix|vmatrix|Vmatrix|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |$ \begin{matrix} 1 & 2 \\ 3 & 4 \\ \end{matrix} $|$ \begin{pmatrix} 1 & 2 \\ 3 & 4 \\ \end{pmatrix} $|$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \\ \end{bmatrix} $|$ \begin{Bmatrix} 1 & 2 \\ 3 & 4 \\ \end{Bmatrix} $|$ \begin{vmatrix} 1 & 2 \\ 3 & 4 \\ \end{vmatrix} $|$ \begin{Vmatrix} 1 & 2 \\ 3 & 4 \\ \end{Vmatrix} $|
@@ -906,7 +910,7 @@ $$
 
 - 例子：
 
-  （1）不适配
+（1）不适配
 ```
 $$
 f(n) = 
@@ -916,7 +920,7 @@ f(n) =
 \end{cases}
 $$
 ```
-​	（2）适配
+（2）适配
 
 ```
 $$
