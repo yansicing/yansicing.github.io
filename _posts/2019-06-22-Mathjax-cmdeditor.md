@@ -1359,7 +1359,7 @@ Use `\,`, to insert a thin space before differentials; without this $\TeX$ will 
 ```
 
 - 视频：< video src="F:\movies\are you hungry.mp4 />
-- 图片：<img src="" style="border:none;">
+- 图片：\<img src="" style="border:none;">
 - 大小：<img src="" width = "100" height = "100" div align=right />
 
 ---
@@ -1371,7 +1371,7 @@ Use `\,`, to insert a thin space before differentials; without this $\TeX$ will 
 - [Markdown公式编辑学习笔记](https://blog.csdn.net/lihaoweicsdn/article/details/83895143)
 - [数学符号创建](http://detexify.kirelabs.org/classify.html)
 - [Markdown 常用公式编辑](https://blog.csdn.net/lihaoweicsdn/article/details/83895143)
--  [Cmd Markdown 简明语法手册](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown) 
+- [Cmd Markdown 简明语法手册](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown) 
 - [Cmd Markdown 高阶语法手册](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-高阶语法手册)
 
 - []()
