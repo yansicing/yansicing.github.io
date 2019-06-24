@@ -74,3 +74,4 @@ The theme is available as open source under the terms of the [GPL v3 License](ht
 * [simon96.online](https://www.simon96.online/2018/10/12/hexo-tutorial/)
 * [Github-Jekyll](https://harttle.land/2013/10/18/github-homepage-tutorial.html#)
 * [leopardpan](https://github.com/leopardpan/leopardpan.github.io)
+* [litten](https://github.com/litten/hexo-theme-yilia)
