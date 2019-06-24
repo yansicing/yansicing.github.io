@@ -1390,7 +1390,7 @@ Use `\,`, to insert a thin space before differentials; without this $\TeX$ will 
 - [Cmd Markdown 高阶语法手册](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-高阶语法手册)
 - [让GitHub Page支持Latex公式](https://zhuanlan.zhihu.com/p/36302775)
 - [关于 Markdown 的一些奇技淫巧](https://zhuanlan.zhihu.com/p/28987530)
-
+- [GitHub with MathJax 插件](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima)
 
 ---
 ##### 返回[顶部](#home)
