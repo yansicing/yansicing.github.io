@@ -75,3 +75,4 @@ The theme is available as open source under the terms of the [GPL v3 License](ht
 * [Github-Jekyll](https://harttle.land/2013/10/18/github-homepage-tutorial.html#)
 * [leopardpan](https://github.com/leopardpan/leopardpan.github.io)
 * [litten](https://github.com/litten/hexo-theme-yilia)
+* [maigoakisame](https://github.com/MaigoAkisame/maigoakisame.github.io)
