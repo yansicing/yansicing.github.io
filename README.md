@@ -76,3 +76,4 @@ The theme is available as open source under the terms of the [GPL v3 License](ht
 * [leopardpan](https://github.com/leopardpan/leopardpan.github.io)
 * [litten](https://github.com/litten/hexo-theme-yilia)
 * [maigoakisame](https://github.com/MaigoAkisame/maigoakisame.github.io)
+* [Jay Alammar](https://github.com/jalammar/jalammar.github.io)
