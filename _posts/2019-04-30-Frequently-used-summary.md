@@ -39,7 +39,7 @@ __Continually update···__
 > * 博客：[QQ](https://im.qq.com/)，[Github Desktop](https://github.com/yansicing/yansicing.github.io)，[jekyllwriter](http://jekyllwriter.com)
 > * 搜索：[Chrome](https://www.google.cn/chrome/)，[Everything](https://www.voidtools.com/zh-cn/)
 > * 截图：[FSCapture](https://faststone-capture.en.softonic.com/)，[Snipaste](https://www.snipaste.com/)，[Honeyview](http://www.bandisoft.com/honeyview/)
-> * 工具：[haozip](http://haozip.2345.cc/)，[Baidu-disk](https://pan.baidu.com)，[PanDownload](https://github.com/BigLight-H/PanDownload)，[CopyTranslator](https://github.com/CopyTranslator/CopyTranslator)，[youdao](http://cidian.youdao.com/)，[TeamViwer](https://down.aaui.net/TeamViewer.htm)，[天若OCR文字识别](https://www.xiaobaipan.com/file-25875759.html)，[ilovepdf](https://www.ilovepdf.com/)，[冰点文库下载器](https://www.xiaobaipan.com/file-25706419.html)
+> * 工具：[haozip](http://haozip.2345.cc/)，[Baidu-disk](https://pan.baidu.com)，[PanDownload](https://github.com/BigLight-H/PanDownload)，[CopyTranslator](https://github.com/CopyTranslator/CopyTranslator)，[youdao](http://cidian.youdao.com/)，[TeamViwer](https://down.aaui.net/TeamViewer.htm)，[AnyDesk](https://anydesk.com/zhs)，[天若OCR文字识别](https://www.xiaobaipan.com/file-25875759.html)，[ilovepdf](https://www.ilovepdf.com/)，[冰点文库下载器](https://www.xiaobaipan.com/file-25706419.html)
 > * 编程：[Dev-C++](https://bloodshed-dev-c.en.softonic.com/)，[Eclipse](https://www.eclipse.org/downloads/)，[Visual Studio Code](https://code.visualstudio.com/)，[VMware Workstation Pro](https://www.vmware.com/cn.html)
 > * 视频：[PotPlayer](https://potplayer.en.softonic.com/)
 > * 传输：[Xshell](https://xshell.en.softonic.com/)，[WinSCP](https://winscp.net/eng/docs/lang:chs)
@@ -103,6 +103,8 @@ __Continually update···__
 > * 黄帝内经
 > * 说文解字
 > * 孙子兵法
+> * 
+> * 
 
 科学：
 > * 普通心理学
@@ -117,20 +119,46 @@ __Continually update···__
 > * 上帝的手术刀
 > * 
 > * 
+
+
+人物：
+> * 李连杰
+> * 周星驰
+> * 成龙
+> * 胡歌
+> * 黄海波
+> * 吴京
+> * 苏有朋
+> * 许嵩
+> * 撒贝宁
+> * 常远
+> * 雷军
+> * 雷佳音
+> * 霍尊
+> * 孔刘
+> * 摩根·弗里曼
+> * 郭冬临
+
+> * 梁宏达
+> * 李保田
+> * 高亚麟
+> * 张涵予
+> * 张嘉译
+> * 吴孟达
 > * 
-> * 
-> * 
-> * 
-> * 
-> * 
-> * 
-> * 
-> * 
-> * 
-> * 
-> * 
-> * 
-> * 
+
+> * 张无忌
+> * 大古
+> * 诸葛亮
+
+> * 闫妮
+> * 董卿
+> * 刘诗诗
+> * 高圆圆
+> * 贾静雯
+> * 佟丽娅
+> * 斯嘉丽·约翰逊
+
 
 
 ---
