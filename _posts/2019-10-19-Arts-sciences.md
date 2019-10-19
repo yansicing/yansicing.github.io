@@ -1,3 +1,14 @@
+---
+title: Arts and Sciences
+layout: post
+categories: Summary
+tags: Science
+
+excerpt: Arts and sciences foundation
+---
+### 文理常识 <span id="home">
+---
+
 [TOC]
 
 # 文理常识（Arts and Sciences）
