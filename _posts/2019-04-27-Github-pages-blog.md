@@ -93,7 +93,7 @@ git config --global user.email "YOUR EMAIL ADDRESS"
 ```
 cd ~/.ssh
 mkdir key_backup
-ssh-keygen -t rsa -C "*your_email@youremail.com*"
+ssh-keygen -t rsa -C "your_email@youremail.com"
 ```
 
 * 使用命令 `cat id_rsa.pub` 再将内容复制到剪切板，然后进入Github账号`Settings`里面，选择`添加SSH key`，粘贴在Key中，Title随意取
