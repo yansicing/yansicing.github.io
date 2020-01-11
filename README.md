@@ -81,4 +81,4 @@ The theme is available as open source under the terms of the [GPL v3 License](ht
 
 ---
 
-<a href="https://info.flagcounter.com/rHwl"><img src="https://s01.flagcounter.com/map/rHwl/size_l/txt_000000/border_CCCCCC/pageviews_0/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
+<a href="https://info.flagcounter.com/Xc8w"><img src="https://s11.flagcounter.com/count2/Xc8w/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
